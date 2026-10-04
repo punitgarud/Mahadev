@@ -86,3 +86,28 @@ async function run() {
 }
 
 run();
+// --- MAHADEV MODULE RANKING FOR FRONTEND ---
+const fs = require('fs');
+let trades = [];
+try { trades = JSON.parse(fs.readFileSync('trades.json','utf8')); } catch(e){}
+
+const stats = {};
+trades.forEach(t => {
+  const m = t.module || t.strategy || 'Unknown';
+  if(!stats[m]) stats[m] = { module:m, pnl:0, wins:0, total:0 };
+  stats[m].pnl += (t.pnl || 0);
+  stats[m].total += 1;
+  if(t.pnl > 0) stats[m].wins += 1;
+});
+
+const ranked = Object.values(stats).map(s => ({
+ ...s,
+  winRate: s.total? Math.round((s.wins/s.total)*100) : 0
+})).sort((a,b) => b.pnl - a.pnl);
+
+fs.writeFileSync('modules_stats.json', JSON.stringify({
+  updated: new Date().toISOString(),
+  top5: ranked.slice(0,5),
+  all: ranked
+}, null, 2));
+console.log("Top5:", ranked.slice(0,5));
