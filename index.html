@@ -7,37 +7,27 @@
 body{background:#0a0a0a;color:#fff;font-family:monospace;padding:10px;margin:0}
 .card{background:#111;border:1px solid #222;border-radius:12px;padding:14px;margin:10px 0}
 .green{color:#00ff88}.red{color:#ff4444}.gold{color:#ffd700}
-.top1{background:linear-gradient(90deg,#0f0a,#111);border:1px solid #0f0 !important}
-h2{margin:5px 0}
+.top1{background:linear-gradient(90deg,#0f0a,#111);border:1px solid #0f0!important}
 .small{font-size:11px;color:#888}
 #countdown{font-size:18px;color:#ffd700;text-align:center;padding:10px;border:1px dashed #ffd700;border-radius:8px;margin:10px 0}
 </style>
 </head>
 <body>
-
 <h2>🔱 Mahadev 24H Paper - LIVE</h2>
 <div id="countdown">16H Countdown: Loading...</div>
-
 <div class="card">
-<b>Live PnL:</b> <span id="pnl" class="gold">Loading...</span> | 
-<b>Trades:</b> <span id="tcount">0</span> | 
-<b>Status:</b> <span class="green">● Running every 5m</span>
+<b>Live PnL:</b> <span id="pnl" class="gold">Loading...</span> | <b>Trades:</b> <span id="tcount">0</span> | <b>Status:</b> <span class="green">● Running every 5m</span>
 <div class="small" id="lastUpdate"></div>
 </div>
-
 <div class="card" id="top5Card">
 <h3>🏆 Top 5 Modules - Put REAL Trades Here</h3>
-<div id="top5List">Waiting for first 5-min bot run...</div>
-<div class="small">Auto-refreshes every 60s. Ranking based on live PnL over next 16H.</div>
+<div id="top5List">Waiting for bot...</div>
 </div>
-
 <div class="card">
 <h3>📊 All Modules Performance</h3>
 <div id="allList"></div>
 </div>
-
 <script>
-// 16H countdown from now
 const endTime = Date.now() + 16*60*60*1000;
 setInterval(()=>{
   const left = endTime - Date.now();
@@ -45,45 +35,31 @@ setInterval(()=>{
   const h=Math.floor(left/3600000), m=Math.floor((left%3600000)/60000), s=Math.floor((left%60000)/1000);
   document.getElementById('countdown').innerHTML=`⏳ 16H Test: ${h}h ${m}m ${s}s left | Auto-runs every 5m`;
 },1000);
-
 async function load(){
  try{
-  const [pnlRes, statRes] = await Promise.all([
-    fetch('./pnl.json?t='+Date.now()).then(r=>r.json()).catch(()=>null),
-    fetch('./modules_stats.json?t='+Date.now()).then(r=>r.json()).catch(()=>null)
-  ]);
-  
+  const pnlRes = await fetch('./pnl.json?t='+Date.now()).then(r=>r.json()).catch(()=>null);
+  const statRes = await fetch('./modules_stats.json?t='+Date.now()).then(r=>r.json()).catch(()=>null);
   if(pnlRes){
-    document.getElementById('pnl').innerText = '₹' + (pnlRes.total_pnl || pnlRes.pnl || 0).toFixed?.(2) || JSON.stringify(pnlRes).slice(0,50);
-    document.getElementById('tcount').innerText = pnlRes.total_trades || '-';
+    document.getElementById('pnl').innerText = '₹' + (pnlRes.total_pnl||0);
+    document.getElementById('tcount').innerText = pnlRes.total_trades||0;
   }
-  
   if(statRes){
     document.getElementById('lastUpdate').innerText = 'Last Bot Run: ' + new Date(statRes.updated).toLocaleString();
-    
-    // Top 5
     document.getElementById('top5List').innerHTML = statRes.top5.map((m,i)=>`
       <div class="card ${i==0?'top1':''}" style="margin:6px 0">
         <b>#${i+1} ${m.module}</b><br>
-        PnL: <span class="${m.pnl>=0?'green':'red'}">₹${m.pnl.toFixed(2)}</span> | 
-        Win: ${m.winRate}% | Trades: ${m.total}
-        ${i==0?'<br><span class="gold">👉 BEST FOR REAL MONEY - Highest PnL</span>':''}
-        ${i==1?'<br><span class="small">👉 2nd Best Backup</span>':''}
-      </div>
-    `).join('');
-    
-    // All modules
+        PnL: <span class="${m.pnl>=0?'green':'red'}">₹${m.pnl.toFixed(2)}</span> | Win: ${m.winRate}% | Trades: ${m.total}
+        ${i==0?'<br><span class="gold">👉 BEST FOR REAL MONEY</span>':''}
+      </div>`).join('');
     document.getElementById('allList').innerHTML = statRes.all.map(m=>`
       <div style="display:flex;justify-content:space-between;padding:6px;border-bottom:1px solid #222">
         <span>${m.module}</span>
         <span class="${m.pnl>=0?'green':'red'}">₹${m.pnl.toFixed(2)} (${m.winRate}%)</span>
-      </div>
-    `).join('');
+      </div>`).join('');
   }
- }catch(e){ console.log(e); }
+ }catch(e){}
 }
 load(); setInterval(load, 60000);
 </script>
-
 </body>
 </html>
