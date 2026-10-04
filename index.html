@@ -1,34 +1,89 @@
-<!doctype html><html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>MAHADEV v29</title><style>body{background:#020202;color:#00ff88;font-family:monospace;padding:12px}.card{border:1px solid #00ff88;background:#0f0f0f;border-radius:12px;padding:12px;margin:10px 0;font-size:12px}.best{border-color:gold;color:gold}.btn{background:#00ff88;color:#000;border:0;padding:10px;border-radius:8px;font-weight:bold;margin:4px}</style></head><body>
-<h1>🔱 Mahadev v29 PAPER 24H REAL PnL</h1>
-<div class="card"><div id="timer"></div><br><button class="btn" onclick="runScan()">Run Scan Now</button><button class="btn" onclick="checkPnL()">Check PnL</button><button class="btn" onclick="clearAll()">Clear</button></div>
-<div id="lead" class="card best"></div><div id="trades" class="card"></div>
-<script>
-const MODS={MEANREV:t=>t.chg1h<-15&&t.inflow>0.62,BREAKOUT:t=>t.chg5m>7&&t.volRatio>2.5,GRID:t=>Math.abs(t.chg24)<6&&t.liq>15000,MOMENTUM:t=>t.chg5m>8&&t.inflow>0.65,SCALPER:t=>t.liq>20000&&t.chg5m>5,VULTURE:t=>t.liq>12000};
-let trades=JSON.parse(localStorage.getItem("v29")||"[]");let start=Date.now();
-async function fetchTokens(){let qs=["pump.fun","BONK","WIF","PEPE"];let all=[];for(let q of qs){try{let r=await fetch(`https://api.dexscreener.com/latest/dex/search/?q=${q}`);let j=await r.json();if(j.pairs)all=all.concat(j.pairs);}catch(e){}await new Promise(r=>setTimeout(r,300));}let uniq={};all.forEach(p=>{let s=(p.baseToken.symbol||"").toUpperCase();if(!["SOL","WSOL","USDC","USDT"].includes(s))uniq[p.baseToken.address]=p;});return Object.values(uniq).map(p=>{let tx=p.txns||{},m5=tx.m5||{},h24=tx.h24||{};let b=(m5.buys||0)+(h24.buys||0),s1=(m5.sells||0)+(h24.sells||0);return{mint:p.baseToken.address,symbol:(p.baseToken.symbol||"").toUpperCase(),price:parseFloat(p.priceUsd)||0,mcap:p.fdv||0,liq:p.liquidity?.usd||0,vol24:p.volume?.h24||0,chg5m:p.priceChange?.m5||0,chg24:p.priceChange?.h24||0,chg1h:p.priceChange?.h1||0,volRatio:(p.volume?.h5||0)/((p.volume?.h24||1)/24*5+1),inflow:b/(b+s1+1)}}).filter(t=>t.liq>=12000&&t.mcap>=40000&&t.mcap<=3000000).slice(0,40);}
-async function runScan(){let toks=await fetchTokens();for(let t of toks){for(let mn in MODS){if(MODS[mn](t)){if(trades.some(x=>x.mint===t.mint&&x.module===mn&&Date.now()-x.ts<3600000))continue;trades.push({ts:Date.now(),module:mn,symbol:t.symbol,mcap:Math.floor(t.mcap),liq:Math.floor(t.liq),entryPrice:t.price,price:t.price,inflow:t.inflow.toFixed(2),chg5m:t.chg5m,mint:t.mint,pnl:null,status:"OPEN"});}}}localStorage.setItem("v29",JSON.stringify(trades));render();}
-async function checkPnL(){for(let mint of [...new Set(trades.filter(t=>t.status==="OPEN").map(t=>t.mint))].slice(0,20)){try{let r=await fetch(`https://api.dexscreener.com/latest/dex/tokens/${mint}`);let j=await r.json();let p=j.pairs?.[0];if(!p)continue;let cur=parseFloat(p.priceUsd)||0;trades.forEach(t=>{if(t.mint===mint&&t.status==="OPEN"){let age=(Date.now()-t.ts)/3600000;if(age>0.8){let pnl=(cur-t.entryPrice)/t.entryPrice*100;t.pnl=pnl;t.cur=cur;if(pnl<=-20||pnl>=40||age>4)t.status="CLOSED";}}});}catch(e){}await new Promise(r=>setTimeout(r,250));}localStorage.setItem("v29",JSON.stringify(trades));render();}
-<div id="top5Box" style="margin:20px;padding:15px;border:1px solid #0f0;border-radius:10px;">
-<h3>🔱 Top 5 Modules - REAL Trade Ready (Live 16H)</h3>
-<div id="top5List">Loading...</div>
-<p style="font-size:10px;color:#888" id="top5Time"></p>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mahadev - Live 16H Paper Trading</title>
+<style>
+body{background:#0a0a0a;color:#fff;font-family:monospace;padding:10px;margin:0}
+.card{background:#111;border:1px solid #222;border-radius:12px;padding:14px;margin:10px 0}
+.green{color:#00ff88}.red{color:#ff4444}.gold{color:#ffd700}
+.top1{background:linear-gradient(90deg,#0f0a,#111);border:1px solid #0f0 !important}
+h2{margin:5px 0}
+.small{font-size:11px;color:#888}
+#countdown{font-size:18px;color:#ffd700;text-align:center;padding:10px;border:1px dashed #ffd700;border-radius:8px;margin:10px 0}
+</style>
+</head>
+<body>
+
+<h2>🔱 Mahadev 24H Paper - LIVE</h2>
+<div id="countdown">16H Countdown: Loading...</div>
+
+<div class="card">
+<b>Live PnL:</b> <span id="pnl" class="gold">Loading...</span> | 
+<b>Trades:</b> <span id="tcount">0</span> | 
+<b>Status:</b> <span class="green">● Running every 5m</span>
+<div class="small" id="lastUpdate"></div>
 </div>
+
+<div class="card" id="top5Card">
+<h3>🏆 Top 5 Modules - Put REAL Trades Here</h3>
+<div id="top5List">Waiting for first 5-min bot run...</div>
+<div class="small">Auto-refreshes every 60s. Ranking based on live PnL over next 16H.</div>
+</div>
+
+<div class="card">
+<h3>📊 All Modules Performance</h3>
+<div id="allList"></div>
+</div>
+
 <script>
-async function loadTop5(){
-  try{
-    const r = await fetch('./modules_stats.json?t='+Date.now());
-    const d = await r.json();
-    document.getElementById('top5Time').innerText = 'Updated: '+new Date(d.updated).toLocaleString();
-    document.getElementById('top5List').innerHTML = d.top5.map((m,i)=>
-      `<div style="padding:8px;background:${i==0?'#0f02':'#111'};margin:5px 0;border-radius:5px;">
-       <b>#${i+1} ${m.module}</b> - PnL: ₹${m.pnl.toFixed(2)} | Win: ${m.winRate}% | Trades: ${m.total}
-       ${i==0?' <span style="color:#0f0">→ PUT REAL MONEY HERE</span>':''}
-       </div>`).join('');
-  }catch(e){ document.getElementById('top5List').innerHTML='Waiting for bot data...'; }
+// 16H countdown from now
+const endTime = Date.now() + 16*60*60*1000;
+setInterval(()=>{
+  const left = endTime - Date.now();
+  if(left<=0){ document.getElementById('countdown').innerHTML='16H Completed - Check Top 5!'; return; }
+  const h=Math.floor(left/3600000), m=Math.floor((left%3600000)/60000), s=Math.floor((left%60000)/1000);
+  document.getElementById('countdown').innerHTML=`⏳ 16H Test: ${h}h ${m}m ${s}s left | Auto-runs every 5m`;
+},1000);
+
+async function load(){
+ try{
+  const [pnlRes, statRes] = await Promise.all([
+    fetch('./pnl.json?t='+Date.now()).then(r=>r.json()).catch(()=>null),
+    fetch('./modules_stats.json?t='+Date.now()).then(r=>r.json()).catch(()=>null)
+  ]);
+  
+  if(pnlRes){
+    document.getElementById('pnl').innerText = '₹' + (pnlRes.total_pnl || pnlRes.pnl || 0).toFixed?.(2) || JSON.stringify(pnlRes).slice(0,50);
+    document.getElementById('tcount').innerText = pnlRes.total_trades || '-';
+  }
+  
+  if(statRes){
+    document.getElementById('lastUpdate').innerText = 'Last Bot Run: ' + new Date(statRes.updated).toLocaleString();
+    
+    // Top 5
+    document.getElementById('top5List').innerHTML = statRes.top5.map((m,i)=>`
+      <div class="card ${i==0?'top1':''}" style="margin:6px 0">
+        <b>#${i+1} ${m.module}</b><br>
+        PnL: <span class="${m.pnl>=0?'green':'red'}">₹${m.pnl.toFixed(2)}</span> | 
+        Win: ${m.winRate}% | Trades: ${m.total}
+        ${i==0?'<br><span class="gold">👉 BEST FOR REAL MONEY - Highest PnL</span>':''}
+        ${i==1?'<br><span class="small">👉 2nd Best Backup</span>':''}
+      </div>
+    `).join('');
+    
+    // All modules
+    document.getElementById('allList').innerHTML = statRes.all.map(m=>`
+      <div style="display:flex;justify-content:space-between;padding:6px;border-bottom:1px solid #222">
+        <span>${m.module}</span>
+        <span class="${m.pnl>=0?'green':'red'}">₹${m.pnl.toFixed(2)} (${m.winRate}%)</span>
+      </div>
+    `).join('');
+  }
+ }catch(e){ console.log(e); }
 }
-loadTop5(); setInterval(loadTop5, 60000);
+load(); setInterval(load, 60000);
 </script>
-  function render(){document.getElementById("timer").innerText=`Total ${trades.length} - OPEN ${trades.filter(t=>t.status==="OPEN").length} - Elapsed ${( (Date.now()-start)/3600000).toFixed(2)}h /24h`;let by={};trades.forEach(t=>{if(t.pnl!==null){if(!by[t.module])by[t.module]={pnl:0,w:0,tot:0};by[t.module].pnl+=t.pnl;by[t.module].tot++;if(t.pnl>0)by[t.module].w++;}});let lead=Object.entries(by).map(([k,v])=>({m:k,pnl:v.pnl,wr:(v.w/v.tot*100).toFixed(1),tot:v.tot})).sort((a,b)=>b.pnl-a.pnl);if(lead.length===0){let c={};trades.forEach(t=>c[t.module]=(c[t.module]||0)+1);lead=Object.entries(c).map(([k,v])=>({m:k,pnl:0,wr:0,tot:v})).sort((a,b)=>b.tot-a.tot);}document.getElementById("lead").innerHTML=`<b>🏆 LEADERBOARD - PnL Based</b><br>`+lead.map((x,i)=>`${i+1}. ${x.m}: ${x.pnl.toFixed(2)}% PnL WR ${x.wr}% Trades ${x.tot} ${i==0?'🔥40%':i==1?'🔥30%':i==2?'🔥20%':''}`).join("<br>");let last=[...trades].reverse().slice(0,25);document.getElementById("trades").innerHTML=last.map(t=>`${new Date(t.ts).toLocaleTimeString()} ${t.module} ${t.symbol} entry ${t.entryPrice} ${t.status} ${t.pnl!==null?t.pnl.toFixed(2)+"%":"OPEN"}`).join("<br>");}
-function clearAll(){trades=[];localStorage.setItem("v29",JSON.stringify(trades));render();}
-render();setTimeout(runScan,2000);setInterval(runScan,300000);setInterval(checkPnL,600000);
-</script></body></html>
+
+</body>
+</html>
