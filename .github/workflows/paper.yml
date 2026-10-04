@@ -1,8 +1,8 @@
 name: Mahadev 24H Paper
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *'  # every 5 mins
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -16,6 +16,6 @@ jobs:
       - run: |
           git config user.name "mahadev-bot"
           git config user.email "bot@mahadev.com"
-          git add pnl.json trades.json || true
-          git commit -m "update pnl $(date)" || true
-          git push || true
+          git add pnl.json trades.json modules_stats.json
+          git diff --staged --quiet || git commit -m "update 16H paper $(date)"
+          git push
