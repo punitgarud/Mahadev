@@ -1,20 +1,27 @@
-const { Connection, PublicKey } = require('@solana/web3.js');
 const CONFIG = require('./config');
 
-async function executeRealTrade(signal){
-  // signal = { module, side, symbol, price }
-  if(CONFIG.FUNDS_PERCENT === 0) return console.log("Paper only mode");
-
-  console.log(`🔱 REAL TRADE -> Module:${signal.module} Side:${signal.side} Funds:${CONFIG.FUNDS_PERCENT}%`);
-
-  // For Seeker Seed Vault - your private key is auto-loaded by Seeker wallet, no.env needed
-  // This is placeholder for Jupiter swap - will use actual DEX execution
-  // Example:
-  // const connection = new Connection(CONFIG.SOLANA.RPC);
-  // const tx = await jupiterSwap(signal, CONFIG.FUNDS_PERCENT);
-
-  // Log real trade
-  return { executed: true, txid: "SIM_"+Date.now(), module: signal.module };
+function getAllocation(top4){
+  const totalScore = top4.reduce((a,m)=>a+m.score,0) || 1;
+  let alloc = top4.map(m=>{
+    let w = m.score/totalScore;
+    w = Math.max(0.15, Math.min(0.40, w)); // 15% min, 40% max
+    return { module: m.module, weight: w, score: m.score };
+  });
+  // re-normalize to 100% after floor/cap
+  const sum = alloc.reduce((a,m)=>a+m.weight,0);
+  alloc = alloc.map(m=> ({...m, weight: m.weight/sum, amountPct: Math.round(m.weight/sum*100)}));
+  return alloc;
 }
 
-module.exports = { executeRealTrade };
+async function executeRealTrade(signals, top4){
+  const allocations = getAllocation(top4);
+  console.log("💰 DYNAMIC ALLOCATION:", allocations);
+
+  for(const a of allocations){
+    const fundsForThis = (CONFIG.FUNDS_PERCENT/100) * a.weight; // % of total wallet
+    console.log(`-> ${a.module}: ${a.amountPct}% of cycle = ${fundsForThis*100}% of wallet | REAL EXECUTE`);
+    // jupiterSwap with amount = walletBalance * fundsForThis
+  }
+}
+
+module.exports = { executeRealTrade, getAllocation };
