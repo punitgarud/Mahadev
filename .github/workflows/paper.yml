@@ -3,11 +3,17 @@ on:
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
@@ -17,5 +23,5 @@ jobs:
           git config user.name "mahadev-bot"
           git config user.email "bot@mahadev.com"
           git add pnl.json trades.json modules_stats.json
-          git diff --staged --quiet || git commit -m "update 16H paper $(date)"
+          git diff --staged --quiet || git commit -m "update 16H paper $(date -u)"
           git push
