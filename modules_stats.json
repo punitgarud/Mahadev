@@ -1,0 +1,126 @@
+{
+  "updated": "2026-10-05T03:43:54.417Z",
+  "top5": [
+    {
+      "module": "VWAP",
+      "pnl": 111.2,
+      "wins": 1,
+      "total": 1,
+      "winRate": 100
+    },
+    {
+      "module": "SMC",
+      "pnl": 109.35,
+      "wins": 1,
+      "total": 1,
+      "winRate": 100
+    },
+    {
+      "module": "Session",
+      "pnl": 91.49,
+      "wins": 1,
+      "total": 1,
+      "winRate": 100
+    },
+    {
+      "module": "OrderBlock",
+      "pnl": 84.27,
+      "wins": 1,
+      "total": 1,
+      "winRate": 100
+    },
+    {
+      "module": "EQH-EQL",
+      "pnl": 76.23,
+      "wins": 1,
+      "total": 1,
+      "winRate": 100
+    }
+  ],
+  "all": [
+    {
+      "module": "VWAP",
+      "pnl": 111.2,
+      "wins": 1,
+      "total": 1,
+      "winRate": 100
+    },
+    {
+      "module": "SMC",
+      "pnl": 109.35,
+      "wins": 1,
+      "total": 1,
+      "winRate": 100
+    },
+    {
+      "module": "Session",
+      "pnl": 91.49,
+      "wins": 1,
+      "total": 1,
+      "winRate": 100
+    },
+    {
+      "module": "OrderBlock",
+      "pnl": 84.27,
+      "wins": 1,
+      "total": 1,
+      "winRate": 100
+    },
+    {
+      "module": "EQH-EQL",
+      "pnl": 76.23,
+      "wins": 1,
+      "total": 1,
+      "winRate": 100
+    },
+    {
+      "module": "CHoCH",
+      "pnl": 45.18,
+      "wins": 1,
+      "total": 1,
+      "winRate": 100
+    },
+    {
+      "module": "FVG",
+      "pnl": 24.98,
+      "wins": 1,
+      "total": 1,
+      "winRate": 100
+    },
+    {
+      "module": "Premium-Discount",
+      "pnl": 18.82,
+      "wins": 1,
+      "total": 1,
+      "winRate": 100
+    },
+    {
+      "module": "BOS",
+      "pnl": 13.06,
+      "wins": 1,
+      "total": 1,
+      "winRate": 100
+    },
+    {
+      "module": "Breaker",
+      "pnl": -16.07,
+      "wins": 0,
+      "total": 1,
+      "winRate": 0
+    },
+    {
+      "module": "Liquidity",
+      "pnl": -16.51,
+      "wins": 0,
+      "total": 1,
+      "winRate": 0
+    },
+    {
+      "module": "Orderflow",
+      "pnl": -17.93,
+      "wins": 0,
+      "total": 1,
+      "winRate": 0
+    }
+  ]
+}

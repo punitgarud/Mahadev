@@ -1,1 +1,98 @@
-{"trades":[],"startTime":0}
+[
+  {
+    "time": "2026-10-05T03:43:54.417Z",
+    "module": "SMC",
+    "strategy": "SMC",
+    "price": 66948.61424953814,
+    "pnl": 109.35,
+    "win": true
+  },
+  {
+    "time": "2026-10-05T03:43:54.417Z",
+    "module": "VWAP",
+    "strategy": "VWAP",
+    "price": 66948.61424953814,
+    "pnl": 111.2,
+    "win": true
+  },
+  {
+    "time": "2026-10-05T03:43:54.417Z",
+    "module": "Liquidity",
+    "strategy": "Liquidity",
+    "price": 66948.61424953814,
+    "pnl": -16.51,
+    "win": false
+  },
+  {
+    "time": "2026-10-05T03:43:54.417Z",
+    "module": "FVG",
+    "strategy": "FVG",
+    "price": 66948.61424953814,
+    "pnl": 24.98,
+    "win": true
+  },
+  {
+    "time": "2026-10-05T03:43:54.417Z",
+    "module": "Breaker",
+    "strategy": "Breaker",
+    "price": 66948.61424953814,
+    "pnl": -16.07,
+    "win": false
+  },
+  {
+    "time": "2026-10-05T03:43:54.417Z",
+    "module": "Orderflow",
+    "strategy": "Orderflow",
+    "price": 66948.61424953814,
+    "pnl": -17.93,
+    "win": false
+  },
+  {
+    "time": "2026-10-05T03:43:54.417Z",
+    "module": "OrderBlock",
+    "strategy": "OrderBlock",
+    "price": 66948.61424953814,
+    "pnl": 84.27,
+    "win": true
+  },
+  {
+    "time": "2026-10-05T03:43:54.417Z",
+    "module": "BOS",
+    "strategy": "BOS",
+    "price": 66948.61424953814,
+    "pnl": 13.06,
+    "win": true
+  },
+  {
+    "time": "2026-10-05T03:43:54.417Z",
+    "module": "CHoCH",
+    "strategy": "CHoCH",
+    "price": 66948.61424953814,
+    "pnl": 45.18,
+    "win": true
+  },
+  {
+    "time": "2026-10-05T03:43:54.417Z",
+    "module": "EQH-EQL",
+    "strategy": "EQH-EQL",
+    "price": 66948.61424953814,
+    "pnl": 76.23,
+    "win": true
+  },
+  {
+    "time": "2026-10-05T03:43:54.417Z",
+    "module": "Premium-Discount",
+    "strategy": "Premium-Discount",
+    "price": 66948.61424953814,
+    "pnl": 18.82,
+    "win": true
+  },
+  {
+    "time": "2026-10-05T03:43:54.417Z",
+    "module": "Session",
+    "strategy": "Session",
+    "price": 66948.61424953814,
+    "pnl": 91.49,
+    "win": true
+  }
+]
