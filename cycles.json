@@ -170,5 +170,91 @@
     ],
     "isReal": true,
     "total_pnl": 1319.91
+  },
+  {
+    "cycleId": 82926,
+    "time": "2026-10-05T16:25:32.856Z",
+    "top4": [
+      {
+        "module": "SMC",
+        "pnl": 151.59,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 151.59,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "151.59",
+        "score": 22979.53
+      },
+      {
+        "module": "VWAP",
+        "pnl": 143.98,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 143.98,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "143.98",
+        "score": 20730.24
+      },
+      {
+        "module": "FVG",
+        "pnl": 117.85,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 117.85,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "117.85",
+        "score": 13888.62
+      },
+      {
+        "module": "Liquidity",
+        "pnl": 115.43,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 115.43,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "115.43",
+        "score": 13324.08
+      }
+    ],
+    "allocations": [
+      {
+        "module": "SMC",
+        "weight": 0.32400916098945787,
+        "score": 22979.53,
+        "amountPct": 32
+      },
+      {
+        "module": "VWAP",
+        "weight": 0.29229438850620965,
+        "score": 20730.24,
+        "amountPct": 29
+      },
+      {
+        "module": "FVG",
+        "weight": 0.19582820508084386,
+        "score": 13888.62,
+        "amountPct": 20
+      },
+      {
+        "module": "Liquidity",
+        "weight": 0.18786824542348843,
+        "score": 13324.08,
+        "amountPct": 19
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 2068.6800000000003
   }
 ]
