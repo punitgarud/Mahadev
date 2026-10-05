@@ -1,9 +1,17 @@
 const fs = require('fs');
 const axios = require('axios');
 
+// --- LOAD EXISTING - FIX FOR YOUR ERROR ---
 let trades = [];
+try {
+  const raw = JSON.parse(fs.readFileSync('trades.json','utf8'));
+  if(Array.isArray(raw)) trades = raw;
+  else if(raw.trades && Array.isArray(raw.trades)) trades = raw.trades;
+  else if(raw.data && Array.isArray(raw.data)) trades = raw.data;
+  else trades = [];
+} catch(e){ trades = []; }
+
 let pnlData = { total_pnl: 0, total_trades: 0 };
-try { trades = JSON.parse(fs.readFileSync('trades.json','utf8')); } catch(e){}
 try { pnlData = JSON.parse(fs.readFileSync('pnl.json','utf8')); } catch(e){}
 
 const MODULES = ['SMC','VWAP','Liquidity','FVG','Breaker','Orderflow','OrderBlock','BOS','CHoCH','EQH-EQL','Premium-Discount','Session'];
@@ -18,6 +26,9 @@ async function getPrice(){
 (async () => {
   const price = await getPrice();
   const now = new Date().toISOString();
+
+  // Ensure trades is array (your error fix)
+  if(!Array.isArray(trades)) trades = [];
 
   MODULES.forEach(mod => {
     const pnl = (Math.random()*200 - 80);
@@ -47,7 +58,7 @@ async function getPrice(){
 
   const stats = {};
   trades.forEach(t => {
-    const m = t.module || 'Unknown';
+    const m = t.module || t.strategy || 'Unknown';
     if(!stats[m]) stats[m] = { module:m, pnl:0, wins:0, total:0 };
     stats[m].pnl += (t.pnl || 0);
     stats[m].total += 1;
