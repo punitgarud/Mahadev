@@ -1,7 +1,8 @@
 {
-  "updated": "2026-10-05T04:09:23.540Z",
-  "cycleId": 82924,
-  "isRealCycle": false,
+  "cycleId": 82925,
+  "createdAt": "2026-10-05T04:09:23.540Z",
+  "validFrom": "2026-10-05T04:09:23.540Z",
+  "validTill": "2026-10-05T10:09:23.540Z",
   "top4": [
     {
       "module": "Session",
@@ -56,6 +57,12 @@
       "score": 7114.92
     }
   ],
+  "top4Names": [
+    "Session",
+    "SMC",
+    "FVG",
+    "CHoCH"
+  ],
   "allocations": [
     {
       "module": "Session",
@@ -82,59 +89,5 @@
       "amountPct": 15
     }
   ],
-  "all": [
-    {
-      "module": "Session",
-      "pnl": 152.82999999999998,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 152.82999999999998,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "152.83",
-      "score": 23357.01
-    },
-    {
-      "module": "SMC",
-      "pnl": 130.26999999999998,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 130.26999999999998,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "130.27",
-      "score": 16970.27
-    },
-    {
-      "module": "FVG",
-      "pnl": 100.69,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 100.69,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "100.69",
-      "score": 10138.48
-    },
-    {
-      "module": "CHoCH",
-      "pnl": 84.35,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 84.35,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "84.35",
-      "score": 7114.92
-    }
-  ],
-  "total_pnl": 1002.39
+  "fundsPercent": 25
 }
