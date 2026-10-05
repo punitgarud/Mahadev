@@ -84,5 +84,91 @@
     ],
     "isReal": false,
     "total_pnl": 1002.39
+  },
+  {
+    "cycleId": 82925,
+    "time": "2026-10-05T07:44:28.960Z",
+    "top4": [
+      {
+        "module": "FVG",
+        "pnl": 223.91,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 223.91,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "223.91",
+        "score": 50135.69
+      },
+      {
+        "module": "Session",
+        "pnl": 157.32,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 157.32,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "157.32",
+        "score": 24749.58
+      },
+      {
+        "module": "SMC",
+        "pnl": 152.98999999999998,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 152.98999999999998,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "152.99",
+        "score": 23405.94
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 147.14,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 147.14,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "147.14",
+        "score": 21650.18
+      }
+    ],
+    "allocations": [
+      {
+        "module": "FVG",
+        "weight": 0.4073326291186,
+        "score": 50135.69,
+        "amountPct": 41
+      },
+      {
+        "module": "Session",
+        "weight": 0.21012995370032647,
+        "score": 24749.58,
+        "amountPct": 21
+      },
+      {
+        "module": "SMC",
+        "weight": 0.19872212330522854,
+        "score": 23405.94,
+        "amountPct": 20
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.18381529387584492,
+        "score": 21650.18,
+        "amountPct": 18
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 1319.91
   }
 ]
