@@ -342,5 +342,91 @@
     ],
     "isReal": true,
     "total_pnl": 2582.330000000001
+  },
+  {
+    "cycleId": 82928,
+    "time": "2026-10-06T02:33:20.791Z",
+    "top4": [
+      {
+        "module": "Liquidity",
+        "pnl": 230.01999999999998,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 230.01999999999998,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "230.02",
+        "score": 52909.2
+      },
+      {
+        "module": "EQH-EQL",
+        "pnl": 227.28000000000003,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 227.28000000000003,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "227.28",
+        "score": 51656.2
+      },
+      {
+        "module": "CHoCH",
+        "pnl": 195.85999999999999,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 195.85999999999999,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "195.86",
+        "score": 38361.14
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 183.92999999999998,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 183.92999999999998,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "183.93",
+        "score": 33830.24
+      }
+    ],
+    "allocations": [
+      {
+        "module": "Liquidity",
+        "weight": 0.2993333551335343,
+        "score": 52909.2,
+        "amountPct": 30
+      },
+      {
+        "module": "EQH-EQL",
+        "weight": 0.29224451814521624,
+        "score": 51656.2,
+        "amountPct": 29
+      },
+      {
+        "module": "CHoCH",
+        "weight": 0.21702782773028562,
+        "score": 38361.14,
+        "amountPct": 22
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.19139429899096372,
+        "score": 33830.24,
+        "amountPct": 19
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 3541.620000000001
   }
 ]
