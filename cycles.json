@@ -1202,5 +1202,91 @@
     ],
     "isReal": true,
     "total_pnl": 7354.820000000001
+  },
+  {
+    "cycleId": 82937,
+    "time": "2026-10-08T10:24:41.925Z",
+    "top4": [
+      {
+        "module": "Liquidity",
+        "pnl": 159.91,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 159.91,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "159.91",
+        "score": 25571.21
+      },
+      {
+        "module": "SMC",
+        "pnl": 151.74,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 151.74,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "151.74",
+        "score": 23025.03
+      },
+      {
+        "module": "OrderBlock",
+        "pnl": 90.27,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 90.27,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "90.27",
+        "score": 8148.67
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 90.06,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 90.06,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "90.06",
+        "score": 8110.8
+      }
+    ],
+    "allocations": [
+      {
+        "module": "Liquidity",
+        "weight": 0.3757545980407346,
+        "score": 25571.21,
+        "amountPct": 38
+      },
+      {
+        "module": "SMC",
+        "weight": 0.33833991009912534,
+        "score": 23025.03,
+        "amountPct": 34
+      },
+      {
+        "module": "OrderBlock",
+        "weight": 0.1429527459300701,
+        "score": 8148.67,
+        "amountPct": 14
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.1429527459300701,
+        "score": 8110.8,
+        "amountPct": 14
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 7560.050000000001
   }
 ]
