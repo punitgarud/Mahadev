@@ -1116,5 +1116,91 @@
     ],
     "isReal": true,
     "total_pnl": 6799.8200000000015
+  },
+  {
+    "cycleId": 82936,
+    "time": "2026-10-08T03:00:54.699Z",
+    "top4": [
+      {
+        "module": "BOS",
+        "pnl": 162.51999999999998,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 162.51999999999998,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "162.52",
+        "score": 26412.75
+      },
+      {
+        "module": "OrderBlock",
+        "pnl": 162.02,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 162.02,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "162.02",
+        "score": 26250.48
+      },
+      {
+        "module": "VWAP",
+        "pnl": 161.04,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 161.04,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "161.04",
+        "score": 25933.88
+      },
+      {
+        "module": "Session",
+        "pnl": 155.72,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 155.72,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "155.72",
+        "score": 24248.72
+      }
+    ],
+    "allocations": [
+      {
+        "module": "BOS",
+        "weight": 0.25681887150893723,
+        "score": 26412.75,
+        "amountPct": 26
+      },
+      {
+        "module": "OrderBlock",
+        "weight": 0.25524107297301213,
+        "score": 26250.48,
+        "amountPct": 26
+      },
+      {
+        "module": "VWAP",
+        "weight": 0.25216267883685706,
+        "score": 25933.88,
+        "amountPct": 25
+      },
+      {
+        "module": "Session",
+        "weight": 0.23577737668119358,
+        "score": 24248.72,
+        "amountPct": 24
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 7354.820000000001
   }
 ]
