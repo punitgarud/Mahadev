@@ -1,92 +1,92 @@
 {
-  "cycleId": 82941,
-  "createdAt": "2026-10-09T02:20:06.935Z",
-  "validFrom": "2026-10-09T02:20:06.935Z",
-  "validTill": "2026-10-09T08:20:06.935Z",
+  "cycleId": 82942,
+  "createdAt": "2026-10-09T09:19:12.554Z",
+  "validFrom": "2026-10-09T09:19:12.554Z",
+  "validTill": "2026-10-09T15:19:12.554Z",
   "top4": [
     {
+      "module": "SMC",
+      "pnl": 127.27,
+      "wins": 1,
+      "loss": 0,
+      "total": 1,
+      "grossProfit": 127.27,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "127.27",
+      "score": 16197.65
+    },
+    {
+      "module": "VWAP",
+      "pnl": 96.74,
+      "wins": 1,
+      "loss": 0,
+      "total": 1,
+      "grossProfit": 96.74,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "96.74",
+      "score": 9358.63
+    },
+    {
+      "module": "Orderflow",
+      "pnl": 50.52,
+      "wins": 1,
+      "loss": 0,
+      "total": 1,
+      "grossProfit": 50.52,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "50.52",
+      "score": 2552.27
+    },
+    {
       "module": "Liquidity",
-      "pnl": 271.37,
-      "wins": 2,
+      "pnl": 40.18,
+      "wins": 1,
       "loss": 0,
-      "total": 2,
-      "grossProfit": 271.37,
+      "total": 1,
+      "grossProfit": 40.18,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "271.37",
-      "score": 73641.68
-    },
-    {
-      "module": "EQH-EQL",
-      "pnl": 264.86,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 264.86,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "264.86",
-      "score": 70150.82
-    },
-    {
-      "module": "OrderBlock",
-      "pnl": 191.4,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 191.4,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "191.40",
-      "score": 36633.96
-    },
-    {
-      "module": "FVG",
-      "pnl": 187.16,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 187.16,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "187.16",
-      "score": 35028.87
+      "profitFactor": "40.18",
+      "score": 1614.43
     }
   ],
   "top4Names": [
-    "Liquidity",
-    "EQH-EQL",
-    "OrderBlock",
-    "FVG"
+    "SMC",
+    "VWAP",
+    "Orderflow",
+    "Liquidity"
   ],
   "allocations": [
     {
+      "module": "SMC",
+      "weight": 0.3941423482985883,
+      "score": 16197.65,
+      "amountPct": 39
+    },
+    {
+      "module": "VWAP",
+      "weight": 0.3102508904774704,
+      "score": 9358.63,
+      "amountPct": 31
+    },
+    {
+      "module": "Orderflow",
+      "weight": 0.1478033806119706,
+      "score": 2552.27,
+      "amountPct": 15
+    },
+    {
       "module": "Liquidity",
-      "weight": 0.3417955824068033,
-      "score": 73641.68,
-      "amountPct": 34
-    },
-    {
-      "module": "EQH-EQL",
-      "weight": 0.3255933376073825,
-      "score": 70150.82,
-      "amountPct": 33
-    },
-    {
-      "module": "OrderBlock",
-      "weight": 0.17003041883438205,
-      "score": 36633.96,
-      "amountPct": 17
-    },
-    {
-      "module": "FVG",
-      "weight": 0.1625806611514322,
-      "score": 35028.87,
-      "amountPct": 16
+      "weight": 0.1478033806119706,
+      "score": 1614.43,
+      "amountPct": 15
     }
   ],
   "fundsPercent": 25
