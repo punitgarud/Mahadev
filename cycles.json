@@ -2062,5 +2062,91 @@
     ],
     "isReal": true,
     "total_pnl": 11147.220000000003
+  },
+  {
+    "cycleId": 82946,
+    "time": "2026-10-10T17:34:44.045Z",
+    "top4": [
+      {
+        "module": "BOS",
+        "pnl": 186.95999999999998,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 186.95999999999998,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "186.96",
+        "score": 34954.04
+      },
+      {
+        "module": "FVG",
+        "pnl": 131.16,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 131.16,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "131.16",
+        "score": 17202.95
+      },
+      {
+        "module": "EQH-EQL",
+        "pnl": 116.00999999999999,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 116.00999999999999,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "116.01",
+        "score": 13458.32
+      },
+      {
+        "module": "OrderBlock",
+        "pnl": 115.06,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 115.06,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "115.06",
+        "score": 13238.8
+      }
+    ],
+    "allocations": [
+      {
+        "module": "BOS",
+        "weight": 0.4180928869139956,
+        "score": 34954.04,
+        "amountPct": 42
+      },
+      {
+        "module": "FVG",
+        "weight": 0.22802968129806808,
+        "score": 17202.95,
+        "amountPct": 23
+      },
+      {
+        "module": "EQH-EQL",
+        "weight": 0.17839361390967334,
+        "score": 13458.32,
+        "amountPct": 18
+      },
+      {
+        "module": "OrderBlock",
+        "weight": 0.17548381787826292,
+        "score": 13238.8,
+        "amountPct": 18
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 11327.160000000003
   }
 ]
