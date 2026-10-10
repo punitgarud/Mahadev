@@ -2148,5 +2148,91 @@
     ],
     "isReal": true,
     "total_pnl": 11327.160000000003
+  },
+  {
+    "cycleId": 82947,
+    "time": "2026-10-10T20:41:29.231Z",
+    "top4": [
+      {
+        "module": "BOS",
+        "pnl": 212.51,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 212.51,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "212.51",
+        "score": 45160.5
+      },
+      {
+        "module": "OrderBlock",
+        "pnl": 202.07,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 202.07,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "202.07",
+        "score": 40832.28
+      },
+      {
+        "module": "VWAP",
+        "pnl": 172.73000000000002,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 172.73000000000002,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "172.73",
+        "score": 29835.65
+      },
+      {
+        "module": "EQH-EQL",
+        "pnl": 94.72999999999999,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 94.72999999999999,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "94.73",
+        "score": 8973.77
+      }
+    ],
+    "allocations": [
+      {
+        "module": "BOS",
+        "weight": 0.33564411890529505,
+        "score": 45160.5,
+        "amountPct": 34
+      },
+      {
+        "module": "OrderBlock",
+        "weight": 0.3034757065022376,
+        "score": 40832.28,
+        "amountPct": 30
+      },
+      {
+        "module": "VWAP",
+        "weight": 0.22174600494274346,
+        "score": 29835.65,
+        "amountPct": 22
+      },
+      {
+        "module": "EQH-EQL",
+        "weight": 0.13913416964972403,
+        "score": 8973.77,
+        "amountPct": 14
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 11720.530000000004
   }
 ]
