@@ -2320,5 +2320,91 @@
     ],
     "isReal": true,
     "total_pnl": 12018.160000000005
+  },
+  {
+    "cycleId": 82948,
+    "time": "2026-10-11T02:50:16.300Z",
+    "top4": [
+      {
+        "module": "Premium-Discount",
+        "pnl": 186.91000000000003,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 186.91000000000003,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "186.91",
+        "score": 34935.35
+      },
+      {
+        "module": "SMC",
+        "pnl": 116.69,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 116.69,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "116.69",
+        "score": 13616.56
+      },
+      {
+        "module": "Session",
+        "pnl": 116.46,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 116.46,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "116.46",
+        "score": 13562.93
+      },
+      {
+        "module": "OrderBlock",
+        "pnl": 127.24,
+        "wins": 1,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 137.25,
+        "grossLoss": 10.01,
+        "maxDD": 0,
+        "winRate": 50,
+        "profitFactor": "13.71",
+        "score": 872.31
+      }
+    ],
+    "allocations": [
+      {
+        "module": "Premium-Discount",
+        "weight": 0.40753595509784496,
+        "score": 34935.35,
+        "amountPct": 41
+      },
+      {
+        "module": "SMC",
+        "weight": 0.22025277317465194,
+        "score": 13616.56,
+        "amountPct": 22
+      },
+      {
+        "module": "Session",
+        "weight": 0.21938528856581122,
+        "score": 13562.93,
+        "amountPct": 22
+      },
+      {
+        "module": "OrderBlock",
+        "weight": 0.15282598316169185,
+        "score": 872.31,
+        "amountPct": 15
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 12133.020000000006
   }
 ]
