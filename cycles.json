@@ -2492,5 +2492,91 @@
     ],
     "isReal": true,
     "total_pnl": 12650.680000000006
+  },
+  {
+    "cycleId": 82950,
+    "time": "2026-10-11T15:49:37.411Z",
+    "top4": [
+      {
+        "module": "CHoCH",
+        "pnl": 159.87,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 159.87,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "159.87",
+        "score": 25558.42
+      },
+      {
+        "module": "EQH-EQL",
+        "pnl": 155.57,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 155.57,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "155.57",
+        "score": 24202.02
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 141.78,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 141.78,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "141.78",
+        "score": 20101.57
+      },
+      {
+        "module": "OrderBlock",
+        "pnl": 109.71,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 109.71,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "109.71",
+        "score": 12036.28
+      }
+    ],
+    "allocations": [
+      {
+        "module": "CHoCH",
+        "weight": 0.3111312244372506,
+        "score": 25558.42,
+        "amountPct": 31
+      },
+      {
+        "module": "EQH-EQL",
+        "weight": 0.294619312009695,
+        "score": 24202.02,
+        "amountPct": 29
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.2447031579890738,
+        "score": 20101.57,
+        "amountPct": 24
+      },
+      {
+        "module": "OrderBlock",
+        "weight": 0.1495463055639807,
+        "score": 12036.28,
+        "amountPct": 15
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 13250.360000000008
   }
 ]
