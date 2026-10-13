@@ -3266,5 +3266,91 @@
     ],
     "isReal": true,
     "total_pnl": 16669.10000000001
+  },
+  {
+    "cycleId": 82959,
+    "time": "2026-10-13T21:12:17.627Z",
+    "top4": [
+      {
+        "module": "SMC",
+        "pnl": 279.46000000000004,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 279.46000000000004,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "279.46",
+        "score": 78097.89
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 183.48,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 183.48,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "183.48",
+        "score": 33664.91
+      },
+      {
+        "module": "VWAP",
+        "pnl": 138.15,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 138.15,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "138.15",
+        "score": 19085.42
+      },
+      {
+        "module": "BOS",
+        "pnl": 117.76,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 117.76,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "117.76",
+        "score": 13867.42
+      }
+    ],
+    "allocations": [
+      {
+        "module": "SMC",
+        "weight": 0.4288955507547694,
+        "score": 78097.89,
+        "amountPct": 43
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.24943278617915354,
+        "score": 33664.91,
+        "amountPct": 25
+      },
+      {
+        "module": "VWAP",
+        "weight": 0.16083583153303851,
+        "score": 19085.42,
+        "amountPct": 16
+      },
+      {
+        "module": "BOS",
+        "weight": 0.16083583153303851,
+        "score": 13867.42,
+        "amountPct": 16
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 16906.190000000006
   }
 ]
