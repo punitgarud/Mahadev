@@ -1,92 +1,92 @@
 {
-  "cycleId": 82963,
-  "createdAt": "2026-10-14T15:04:45.352Z",
-  "validFrom": "2026-10-14T15:04:45.352Z",
-  "validTill": "2026-10-14T21:04:45.352Z",
+  "cycleId": 82964,
+  "createdAt": "2026-10-14T19:18:54.975Z",
+  "validFrom": "2026-10-14T19:18:54.975Z",
+  "validTill": "2026-10-15T01:18:54.975Z",
   "top4": [
     {
-      "module": "SMC",
-      "pnl": 210.77,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 210.77,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "210.77",
-      "score": 44423.99
-    },
-    {
       "module": "FVG",
-      "pnl": 192.43,
+      "pnl": 256.55999999999995,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 192.43,
+      "grossProfit": 256.55999999999995,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "192.43",
-      "score": 37029.3
+      "profitFactor": "256.56",
+      "score": 65823.03
     },
     {
-      "module": "VWAP",
-      "pnl": 173.46,
+      "module": "SMC",
+      "pnl": 212.07,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 173.46,
+      "grossProfit": 212.07,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "173.46",
-      "score": 30088.37
+      "profitFactor": "212.07",
+      "score": 44973.68
     },
     {
       "module": "CHoCH",
-      "pnl": 113.45,
+      "pnl": 125.15,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 113.45,
+      "grossProfit": 125.15,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "113.45",
-      "score": 12870.9
+      "profitFactor": "125.15",
+      "score": 15662.52
+    },
+    {
+      "module": "VWAP",
+      "pnl": 120.28999999999999,
+      "wins": 2,
+      "loss": 0,
+      "total": 2,
+      "grossProfit": 120.28999999999999,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "120.29",
+      "score": 14469.68
     }
   ],
   "top4Names": [
-    "SMC",
     "FVG",
-    "VWAP",
-    "CHoCH"
+    "SMC",
+    "CHoCH",
+    "VWAP"
   ],
   "allocations": [
     {
-      "module": "SMC",
-      "weight": 0.34118879283347314,
-      "score": 44423.99,
-      "amountPct": 34
-    },
-    {
       "module": "FVG",
-      "weight": 0.28439548465746833,
-      "score": 37029.3,
-      "amountPct": 28
+      "weight": 0.3924942668149066,
+      "score": 65823.03,
+      "amountPct": 39
     },
     {
-      "module": "VWAP",
-      "weight": 0.2310871814671957,
-      "score": 30088.37,
-      "amountPct": 23
+      "module": "SMC",
+      "weight": 0.31313503307391344,
+      "score": 44973.68,
+      "amountPct": 31
     },
     {
       "module": "CHoCH",
-      "weight": 0.14332854104186288,
-      "score": 12870.9,
-      "amountPct": 14
+      "weight": 0.14718535005558997,
+      "score": 15662.52,
+      "amountPct": 15
+    },
+    {
+      "module": "VWAP",
+      "weight": 0.14718535005558997,
+      "score": 14469.68,
+      "amountPct": 15
     }
   ],
   "fundsPercent": 25
