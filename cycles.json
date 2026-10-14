@@ -3352,5 +3352,91 @@
     ],
     "isReal": true,
     "total_pnl": 16906.190000000006
+  },
+  {
+    "cycleId": 82960,
+    "time": "2026-10-14T00:19:10.222Z",
+    "top4": [
+      {
+        "module": "Premium-Discount",
+        "pnl": 255.99,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 255.99,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "255.99",
+        "score": 65530.88
+      },
+      {
+        "module": "OrderBlock",
+        "pnl": 217.48000000000002,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 217.48000000000002,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "217.48",
+        "score": 47297.55
+      },
+      {
+        "module": "SMC",
+        "pnl": 213.89000000000001,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 213.89000000000001,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "213.89",
+        "score": 45748.93
+      },
+      {
+        "module": "Orderflow",
+        "pnl": 165.79,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 165.79,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "165.79",
+        "score": 27486.32
+      }
+    ],
+    "allocations": [
+      {
+        "module": "Premium-Discount",
+        "weight": 0.3513966706682343,
+        "score": 65530.88,
+        "amountPct": 35
+      },
+      {
+        "module": "OrderBlock",
+        "weight": 0.253623964774536,
+        "score": 47297.55,
+        "amountPct": 25
+      },
+      {
+        "module": "SMC",
+        "weight": 0.2453197895195991,
+        "score": 45748.93,
+        "amountPct": 25
+      },
+      {
+        "module": "Orderflow",
+        "weight": 0.1496595750376305,
+        "score": 27486.32,
+        "amountPct": 15
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 17365.010000000006
   }
 ]
