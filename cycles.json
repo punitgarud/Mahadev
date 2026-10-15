@@ -3954,5 +3954,91 @@
     ],
     "isReal": true,
     "total_pnl": 19779.210000000003
+  },
+  {
+    "cycleId": 82964,
+    "time": "2026-10-15T05:16:40.972Z",
+    "top4": [
+      {
+        "module": "FVG",
+        "pnl": 289.19,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 289.19,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "289.19",
+        "score": 83630.86
+      },
+      {
+        "module": "Orderflow",
+        "pnl": 171.82,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 171.82,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "171.82",
+        "score": 29522.11
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 148.62,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 148.62,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "148.62",
+        "score": 22087.9
+      },
+      {
+        "module": "EQH-EQL",
+        "pnl": 143,
+        "wins": 1,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 145.51,
+        "grossLoss": 2.51,
+        "maxDD": 0,
+        "winRate": 50,
+        "profitFactor": "57.97",
+        "score": 4145.01
+      }
+    ],
+    "allocations": [
+      {
+        "module": "FVG",
+        "weight": 0.4346564015828709,
+        "score": 83630.86,
+        "amountPct": 43
+      },
+      {
+        "module": "Orderflow",
+        "weight": 0.23015197270580218,
+        "score": 29522.11,
+        "amountPct": 23
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.17219547511775035,
+        "score": 22087.9,
+        "amountPct": 17
+      },
+      {
+        "module": "EQH-EQL",
+        "weight": 0.16299615059357658,
+        "score": 4145.01,
+        "amountPct": 16
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 20366.930000000004
   }
 ]
