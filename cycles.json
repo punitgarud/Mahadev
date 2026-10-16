@@ -4556,5 +4556,91 @@
     ],
     "isReal": true,
     "total_pnl": 22134.039999999997
+  },
+  {
+    "cycleId": 82969,
+    "time": "2026-10-16T09:06:37.324Z",
+    "top4": [
+      {
+        "module": "VWAP",
+        "pnl": 288.55,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 288.55,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "288.55",
+        "score": 83261.1
+      },
+      {
+        "module": "Breaker",
+        "pnl": 239.66,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 239.66,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "239.66",
+        "score": 57436.92
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 152.19,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 152.19,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "152.19",
+        "score": 23161.8
+      },
+      {
+        "module": "OrderBlock",
+        "pnl": 144.10000000000002,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 144.10000000000002,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "144.10",
+        "score": 20764.81
+      }
+    ],
+    "allocations": [
+      {
+        "module": "VWAP",
+        "weight": 0.3956083241750849,
+        "score": 83261.1,
+        "amountPct": 40
+      },
+      {
+        "module": "Breaker",
+        "weight": 0.3076854326936013,
+        "score": 57436.92,
+        "amountPct": 31
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.14835312156565683,
+        "score": 23161.8,
+        "amountPct": 15
+      },
+      {
+        "module": "OrderBlock",
+        "weight": 0.14835312156565683,
+        "score": 20764.81,
+        "amountPct": 15
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 22589.019999999993
   }
 ]
