@@ -5244,5 +5244,91 @@
     ],
     "isReal": true,
     "total_pnl": 24975.359999999986
+  },
+  {
+    "cycleId": 82974,
+    "time": "2026-10-17T13:01:43.106Z",
+    "top4": [
+      {
+        "module": "CHoCH",
+        "pnl": 289.57000000000005,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 289.57000000000005,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "289.57",
+        "score": 83850.78
+      },
+      {
+        "module": "VWAP",
+        "pnl": 243.68,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 243.68,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "243.68",
+        "score": 59379.94
+      },
+      {
+        "module": "Session",
+        "pnl": 241.44,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 241.44,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "241.44",
+        "score": 58293.27
+      },
+      {
+        "module": "SMC",
+        "pnl": 156.64000000000001,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 156.64000000000001,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "156.64",
+        "score": 24536.09
+      }
+    ],
+    "allocations": [
+      {
+        "module": "CHoCH",
+        "weight": 0.35615559113501005,
+        "score": 83850.78,
+        "amountPct": 36
+      },
+      {
+        "module": "VWAP",
+        "weight": 0.2522158724374589,
+        "score": 59379.94,
+        "amountPct": 25
+      },
+      {
+        "module": "Session",
+        "weight": 0.2476002493482201,
+        "score": 58293.27,
+        "amountPct": 25
+      },
+      {
+        "module": "SMC",
+        "weight": 0.14402828707931098,
+        "score": 24536.09,
+        "amountPct": 14
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 25669.619999999977
   }
 ]
