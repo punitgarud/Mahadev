@@ -4986,5 +4986,91 @@
     ],
     "isReal": true,
     "total_pnl": 23948.149999999987
+  },
+  {
+    "cycleId": 82972,
+    "time": "2026-10-17T00:49:24.248Z",
+    "top4": [
+      {
+        "module": "FVG",
+        "pnl": 261.32,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 261.32,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "261.32",
+        "score": 68288.14
+      },
+      {
+        "module": "VWAP",
+        "pnl": 175.52999999999997,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 175.52999999999997,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "175.53",
+        "score": 30810.78
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 192.51,
+        "wins": 2,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 195.31,
+        "grossLoss": 2.8,
+        "maxDD": 0,
+        "winRate": 67,
+        "profitFactor": "69.75",
+        "score": 8952.17
+      },
+      {
+        "module": "CHoCH",
+        "pnl": 254.07999999999998,
+        "wins": 2,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 306.07,
+        "grossLoss": 51.99,
+        "maxDD": 0,
+        "winRate": 67,
+        "profitFactor": "5.89",
+        "score": 997.2
+      }
+    ],
+    "allocations": [
+      {
+        "module": "FVG",
+        "weight": 0.4071070583195046,
+        "score": 68288.14,
+        "amountPct": 41
+      },
+      {
+        "module": "VWAP",
+        "weight": 0.28756264794086694,
+        "score": 30810.78,
+        "amountPct": 29
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.1526651468698142,
+        "score": 8952.17,
+        "amountPct": 15
+      },
+      {
+        "module": "CHoCH",
+        "weight": 0.1526651468698142,
+        "score": 997.2,
+        "amountPct": 15
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 24505.529999999988
   }
 ]
