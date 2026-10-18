@@ -1,92 +1,92 @@
 {
   "cycleId": 82980,
-  "createdAt": "2026-10-18T21:25:30.936Z",
-  "validFrom": "2026-10-18T21:25:30.936Z",
-  "validTill": "2026-10-19T03:25:30.936Z",
+  "createdAt": "2026-10-18T23:30:20.812Z",
+  "validFrom": "2026-10-18T23:30:20.812Z",
+  "validTill": "2026-10-19T05:30:20.812Z",
   "top4": [
     {
-      "module": "Premium-Discount",
-      "pnl": 233.47,
-      "wins": 3,
-      "loss": 0,
-      "total": 3,
-      "grossProfit": 233.47,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "233.47",
-      "score": 54508.24
-    },
-    {
-      "module": "CHoCH",
-      "pnl": 131.45,
-      "wins": 3,
-      "loss": 0,
-      "total": 3,
-      "grossProfit": 131.45,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "131.45",
-      "score": 17279.1
-    },
-    {
       "module": "VWAP",
-      "pnl": 126.03,
+      "pnl": 236.12,
       "wins": 3,
       "loss": 0,
       "total": 3,
-      "grossProfit": 126.03,
+      "grossProfit": 236.12,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "126.03",
-      "score": 15883.56
+      "profitFactor": "236.12",
+      "score": 55752.65
     },
     {
-      "module": "BOS",
-      "pnl": 95.06,
-      "wins": 2,
+      "module": "Premium-Discount",
+      "pnl": 193.99,
+      "wins": 3,
       "loss": 0,
       "total": 3,
-      "grossProfit": 104.22,
-      "grossLoss": 9.16,
+      "grossProfit": 193.99,
+      "grossLoss": 0,
       "maxDD": 0,
-      "winRate": 67,
-      "profitFactor": "11.38",
-      "score": 721.04
+      "winRate": 100,
+      "profitFactor": "193.99",
+      "score": 37632.12
+    },
+    {
+      "module": "Liquidity",
+      "pnl": 185.38,
+      "wins": 3,
+      "loss": 0,
+      "total": 3,
+      "grossProfit": 185.38,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "185.38",
+      "score": 34365.74
+    },
+    {
+      "module": "FVG",
+      "pnl": 184.16000000000003,
+      "wins": 3,
+      "loss": 0,
+      "total": 3,
+      "grossProfit": 184.16000000000003,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "184.16",
+      "score": 33914.91
     }
   ],
   "top4Names": [
-    "Premium-Discount",
-    "CHoCH",
     "VWAP",
-    "BOS"
+    "Premium-Discount",
+    "Liquidity",
+    "FVG"
   ],
   "allocations": [
     {
-      "module": "Premium-Discount",
-      "weight": 0.43234950544965955,
-      "score": 54508.24,
-      "amountPct": 43
+      "module": "VWAP",
+      "weight": 0.3448644119441251,
+      "score": 55752.65,
+      "amountPct": 34
     },
     {
-      "module": "CHoCH",
-      "weight": 0.21129218171971373,
-      "score": 17279.1,
+      "module": "Premium-Discount",
+      "weight": 0.2327777950287699,
+      "score": 37632.12,
+      "amountPct": 23
+    },
+    {
+      "module": "Liquidity",
+      "weight": 0.21257322685333693,
+      "score": 34365.74,
       "amountPct": 21
     },
     {
-      "module": "VWAP",
-      "weight": 0.1942272482870043,
-      "score": 15883.56,
-      "amountPct": 19
-    },
-    {
-      "module": "BOS",
-      "weight": 0.16213106454362233,
-      "score": 721.04,
-      "amountPct": 16
+      "module": "FVG",
+      "weight": 0.20978456617376803,
+      "score": 33914.91,
+      "amountPct": 21
     }
   ],
   "fundsPercent": 25

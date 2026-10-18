@@ -6276,5 +6276,91 @@
     ],
     "isReal": true,
     "total_pnl": 30513.729999999985
+  },
+  {
+    "cycleId": 82979,
+    "time": "2026-10-18T23:30:20.812Z",
+    "top4": [
+      {
+        "module": "VWAP",
+        "pnl": 236.12,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 236.12,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "236.12",
+        "score": 55752.65
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 193.99,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 193.99,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "193.99",
+        "score": 37632.12
+      },
+      {
+        "module": "Liquidity",
+        "pnl": 185.38,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 185.38,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "185.38",
+        "score": 34365.74
+      },
+      {
+        "module": "FVG",
+        "pnl": 184.16000000000003,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 184.16000000000003,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "184.16",
+        "score": 33914.91
+      }
+    ],
+    "allocations": [
+      {
+        "module": "VWAP",
+        "weight": 0.3448644119441251,
+        "score": 55752.65,
+        "amountPct": 34
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.2327777950287699,
+        "score": 37632.12,
+        "amountPct": 23
+      },
+      {
+        "module": "Liquidity",
+        "weight": 0.21257322685333693,
+        "score": 34365.74,
+        "amountPct": 21
+      },
+      {
+        "module": "FVG",
+        "weight": 0.20978456617376803,
+        "score": 33914.91,
+        "amountPct": 21
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 31313.139999999978
   }
 ]
