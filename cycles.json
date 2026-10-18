@@ -5932,5 +5932,91 @@
     ],
     "isReal": true,
     "total_pnl": 29057.019999999986
+  },
+  {
+    "cycleId": 82978,
+    "time": "2026-10-18T13:32:01.412Z",
+    "top4": [
+      {
+        "module": "Breaker",
+        "pnl": 290.69,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 290.69,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "290.69",
+        "score": 84500.68
+      },
+      {
+        "module": "VWAP",
+        "pnl": 279.2,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 279.2,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "279.20",
+        "score": 77952.64
+      },
+      {
+        "module": "Session",
+        "pnl": 246.15,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 246.15,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "246.15",
+        "score": 60589.82
+      },
+      {
+        "module": "Liquidity",
+        "pnl": 143.39999999999998,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 143.39999999999998,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "143.40",
+        "score": 20563.56
+      }
+    ],
+    "allocations": [
+      {
+        "module": "Breaker",
+        "weight": 0.3255232710765135,
+        "score": 84500.68,
+        "amountPct": 33
+      },
+      {
+        "module": "VWAP",
+        "weight": 0.30029815572904117,
+        "score": 77952.64,
+        "amountPct": 30
+      },
+      {
+        "module": "Session",
+        "weight": 0.23341109681409855,
+        "score": 60589.82,
+        "amountPct": 23
+      },
+      {
+        "module": "Liquidity",
+        "weight": 0.14076747638034673,
+        "score": 20563.56,
+        "amountPct": 14
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 29736.11999999998
   }
 ]
