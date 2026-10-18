@@ -6018,5 +6018,91 @@
     ],
     "isReal": true,
     "total_pnl": 29736.11999999998
+  },
+  {
+    "cycleId": 82978,
+    "time": "2026-10-18T16:49:47.256Z",
+    "top4": [
+      {
+        "module": "Session",
+        "pnl": 208.94,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 208.94,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "208.94",
+        "score": 43655.92
+      },
+      {
+        "module": "VWAP",
+        "pnl": 151.57999999999998,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 151.57999999999998,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "151.58",
+        "score": 22976.5
+      },
+      {
+        "module": "SMC",
+        "pnl": 135.10999999999999,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 135.10999999999999,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "135.11",
+        "score": 18254.71
+      },
+      {
+        "module": "Orderflow",
+        "pnl": 131.29,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 131.29,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "131.29",
+        "score": 17237.06
+      }
+    ],
+    "allocations": [
+      {
+        "module": "Session",
+        "weight": 0.41130206216709314,
+        "score": 43655.92,
+        "amountPct": 41
+      },
+      {
+        "module": "VWAP",
+        "weight": 0.23134288338987596,
+        "score": 22976.5,
+        "amountPct": 23
+      },
+      {
+        "module": "SMC",
+        "weight": 0.18380072016390672,
+        "score": 18254.71,
+        "amountPct": 18
+      },
+      {
+        "module": "Orderflow",
+        "weight": 0.17355433427912415,
+        "score": 17237.06,
+        "amountPct": 17
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 29949.339999999982
   }
 ]
