@@ -6620,5 +6620,91 @@
     ],
     "isReal": true,
     "total_pnl": 31846.429999999982
+  },
+  {
+    "cycleId": 82983,
+    "time": "2026-10-19T19:49:38.380Z",
+    "top4": [
+      {
+        "module": "EQH-EQL",
+        "pnl": 191.67,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 191.67,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "191.67",
+        "score": 36737.39
+      },
+      {
+        "module": "Orderflow",
+        "pnl": 151.42,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 151.42,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "151.42",
+        "score": 22928.02
+      },
+      {
+        "module": "Liquidity",
+        "pnl": 113.53,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 113.53,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "113.53",
+        "score": 12889.06
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 89.74000000000001,
+        "wins": 1,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 125.56,
+        "grossLoss": 35.82,
+        "maxDD": 0,
+        "winRate": 50,
+        "profitFactor": "3.51",
+        "score": 157.28
+      }
+    ],
+    "allocations": [
+      {
+        "module": "EQH-EQL",
+        "weight": 0.38365992856280023,
+        "score": 36737.39,
+        "amountPct": 38
+      },
+      {
+        "module": "Orderflow",
+        "weight": 0.30244638986430855,
+        "score": 22928.02,
+        "amountPct": 30
+      },
+      {
+        "module": "Liquidity",
+        "weight": 0.1700212083618413,
+        "score": 12889.06,
+        "amountPct": 17
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.14387247321105007,
+        "score": 157.28,
+        "amountPct": 14
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 32721.099999999988
   }
 ]
