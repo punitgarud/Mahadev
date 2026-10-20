@@ -1,92 +1,92 @@
 {
-  "cycleId": 82986,
-  "createdAt": "2026-10-20T06:43:59.371Z",
-  "validFrom": "2026-10-20T06:43:59.371Z",
-  "validTill": "2026-10-20T12:43:59.371Z",
+  "cycleId": 82987,
+  "createdAt": "2026-10-20T12:17:09.206Z",
+  "validFrom": "2026-10-20T12:17:09.206Z",
+  "validTill": "2026-10-20T18:17:09.206Z",
   "top4": [
     {
-      "module": "OrderBlock",
-      "pnl": 145.71,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 145.71,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "145.71",
-      "score": 21231.4
-    },
-    {
-      "module": "CHoCH",
-      "pnl": 109.66,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 109.66,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "109.66",
-      "score": 12025.32
-    },
-    {
       "module": "Liquidity",
-      "pnl": 88.89,
+      "pnl": 215.25,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 88.89,
+      "grossProfit": 215.25,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "88.89",
-      "score": 7901.43
+      "profitFactor": "215.25",
+      "score": 46332.56
     },
     {
       "module": "FVG",
-      "pnl": 78.96000000000001,
+      "pnl": 114.32000000000001,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 78.96000000000001,
+      "grossProfit": 114.32000000000001,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "78.96",
-      "score": 6234.68
+      "profitFactor": "114.32",
+      "score": 13069.06
+    },
+    {
+      "module": "Breaker",
+      "pnl": 115.00999999999999,
+      "wins": 1,
+      "loss": 0,
+      "total": 2,
+      "grossProfit": 139.47,
+      "grossLoss": 24.46,
+      "maxDD": 0,
+      "winRate": 50,
+      "profitFactor": "5.70",
+      "score": 327.89
+    },
+    {
+      "module": "OrderBlock",
+      "pnl": 66.78,
+      "wins": 1,
+      "loss": 0,
+      "total": 2,
+      "grossProfit": 117.98,
+      "grossLoss": 51.2,
+      "maxDD": 0,
+      "winRate": 50,
+      "profitFactor": "2.30",
+      "score": 76.94
     }
   ],
   "top4Names": [
-    "OrderBlock",
-    "CHoCH",
     "Liquidity",
-    "FVG"
+    "FVG",
+    "Breaker",
+    "OrderBlock"
   ],
   "allocations": [
     {
-      "module": "OrderBlock",
-      "weight": 0.4121760214828378,
-      "score": 21231.4,
-      "amountPct": 41
-    },
-    {
-      "module": "CHoCH",
-      "weight": 0.2614608873672451,
-      "score": 12025.32,
-      "amountPct": 26
-    },
-    {
       "module": "Liquidity",
-      "weight": 0.17179708309385294,
-      "score": 7901.43,
-      "amountPct": 17
+      "weight": 0.4354819434198484,
+      "score": 46332.56,
+      "amountPct": 44
     },
     {
       "module": "FVG",
-      "weight": 0.15456600805606416,
-      "score": 6234.68,
-      "amountPct": 15
+      "weight": 0.23790659901526526,
+      "score": 13069.06,
+      "amountPct": 24
+    },
+    {
+      "module": "Breaker",
+      "weight": 0.16330572878244315,
+      "score": 327.89,
+      "amountPct": 16
+    },
+    {
+      "module": "OrderBlock",
+      "weight": 0.16330572878244315,
+      "score": 76.94,
+      "amountPct": 16
     }
   ],
   "fundsPercent": 25
