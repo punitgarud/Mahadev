@@ -1,92 +1,92 @@
 {
   "cycleId": 82992,
-  "createdAt": "2026-10-21T20:52:49.704Z",
-  "validFrom": "2026-10-21T20:52:49.704Z",
-  "validTill": "2026-10-22T02:52:49.704Z",
+  "createdAt": "2026-10-21T23:50:27.667Z",
+  "validFrom": "2026-10-21T23:50:27.667Z",
+  "validTill": "2026-10-22T05:50:27.667Z",
   "top4": [
     {
+      "module": "FVG",
+      "pnl": 252.26,
+      "wins": 2,
+      "loss": 0,
+      "total": 2,
+      "grossProfit": 252.26,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "252.26",
+      "score": 63635.11
+    },
+    {
       "module": "VWAP",
-      "pnl": 204.07,
+      "pnl": 241.93,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 204.07,
+      "grossProfit": 241.93,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "204.07",
-      "score": 41644.56
+      "profitFactor": "241.93",
+      "score": 58530.12
     },
     {
-      "module": "BOS",
-      "pnl": 171.76,
+      "module": "Liquidity",
+      "pnl": 183.54000000000002,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 171.76,
+      "grossProfit": 183.54000000000002,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "171.76",
-      "score": 29501.5
+      "profitFactor": "183.54",
+      "score": 33686.93
     },
     {
-      "module": "Session",
-      "pnl": 166.75,
+      "module": "SMC",
+      "pnl": 143.32999999999998,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 166.75,
+      "grossProfit": 143.32999999999998,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "166.75",
-      "score": 27805.56
-    },
-    {
-      "module": "EQH-EQL",
-      "pnl": 147.5,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 147.5,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "147.50",
-      "score": 21756.25
+      "profitFactor": "143.33",
+      "score": 20543.49
     }
   ],
   "top4Names": [
+    "FVG",
     "VWAP",
-    "BOS",
-    "Session",
-    "EQH-EQL"
+    "Liquidity",
+    "SMC"
   ],
   "allocations": [
     {
-      "module": "VWAP",
-      "weight": 0.3450028568974003,
-      "score": 41644.56,
+      "module": "FVG",
+      "weight": 0.34904604142994106,
+      "score": 63635.11,
       "amountPct": 35
     },
     {
-      "module": "BOS",
-      "weight": 0.24440411383284288,
-      "score": 29501.5,
-      "amountPct": 24
+      "module": "VWAP",
+      "weight": 0.3210445725703849,
+      "score": 58530.12,
+      "amountPct": 32
     },
     {
-      "module": "Session",
-      "weight": 0.23035416000630285,
-      "score": 27805.56,
-      "amountPct": 23
-    },
-    {
-      "module": "EQH-EQL",
-      "weight": 0.180238869263454,
-      "score": 21756.25,
+      "module": "Liquidity",
+      "weight": 0.18477676182892627,
+      "score": 33686.93,
       "amountPct": 18
+    },
+    {
+      "module": "SMC",
+      "weight": 0.145132624170748,
+      "score": 20543.49,
+      "amountPct": 15
     }
   ],
   "fundsPercent": 25

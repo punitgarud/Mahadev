@@ -7738,5 +7738,91 @@
     ],
     "isReal": true,
     "total_pnl": 37546.89999999999
+  },
+  {
+    "cycleId": 82991,
+    "time": "2026-10-21T23:50:27.667Z",
+    "top4": [
+      {
+        "module": "FVG",
+        "pnl": 252.26,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 252.26,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "252.26",
+        "score": 63635.11
+      },
+      {
+        "module": "VWAP",
+        "pnl": 241.93,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 241.93,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "241.93",
+        "score": 58530.12
+      },
+      {
+        "module": "Liquidity",
+        "pnl": 183.54000000000002,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 183.54000000000002,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "183.54",
+        "score": 33686.93
+      },
+      {
+        "module": "SMC",
+        "pnl": 143.32999999999998,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 143.32999999999998,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "143.33",
+        "score": 20543.49
+      }
+    ],
+    "allocations": [
+      {
+        "module": "FVG",
+        "weight": 0.34904604142994106,
+        "score": 63635.11,
+        "amountPct": 35
+      },
+      {
+        "module": "VWAP",
+        "weight": 0.3210445725703849,
+        "score": 58530.12,
+        "amountPct": 32
+      },
+      {
+        "module": "Liquidity",
+        "weight": 0.18477676182892627,
+        "score": 33686.93,
+        "amountPct": 18
+      },
+      {
+        "module": "SMC",
+        "weight": 0.145132624170748,
+        "score": 20543.49,
+        "amountPct": 15
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 38040.929999999986
   }
 ]
