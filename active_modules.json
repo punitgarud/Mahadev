@@ -1,92 +1,92 @@
 {
   "cycleId": 82991,
-  "createdAt": "2026-10-21T12:28:48.048Z",
-  "validFrom": "2026-10-21T12:28:48.048Z",
-  "validTill": "2026-10-21T18:28:48.048Z",
+  "createdAt": "2026-10-21T17:35:48.166Z",
+  "validFrom": "2026-10-21T17:35:48.166Z",
+  "validTill": "2026-10-21T23:35:48.166Z",
   "top4": [
     {
-      "module": "Breaker",
-      "pnl": 208.44,
+      "module": "Session",
+      "pnl": 234.8,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 208.44,
+      "grossProfit": 234.8,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "208.44",
-      "score": 43447.23
+      "profitFactor": "234.80",
+      "score": 55131.04
     },
     {
       "module": "VWAP",
-      "pnl": 147.45,
+      "pnl": 194.31,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 147.45,
+      "grossProfit": 194.31,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "147.45",
-      "score": 21741.5
+      "profitFactor": "194.31",
+      "score": 37756.38
+    },
+    {
+      "module": "Breaker",
+      "pnl": 61.83,
+      "wins": 2,
+      "loss": 0,
+      "total": 2,
+      "grossProfit": 61.83,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "61.83",
+      "score": 3822.95
     },
     {
       "module": "Liquidity",
-      "pnl": 143.23,
-      "wins": 2,
+      "pnl": 108.09,
+      "wins": 1,
       "loss": 0,
       "total": 2,
-      "grossProfit": 143.23,
-      "grossLoss": 0,
+      "grossProfit": 125.42,
+      "grossLoss": 17.33,
       "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "143.23",
-      "score": 20514.83
-    },
-    {
-      "module": "FVG",
-      "pnl": 77.37,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 77.37,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "77.37",
-      "score": 5986.12
+      "winRate": 50,
+      "profitFactor": "7.24",
+      "score": 391.13
     }
   ],
   "top4Names": [
-    "Breaker",
+    "Session",
     "VWAP",
-    "Liquidity",
-    "FVG"
+    "Breaker",
+    "Liquidity"
   ],
   "allocations": [
     {
-      "module": "Breaker",
-      "weight": 0.39570171237071916,
-      "score": 43447.23,
-      "amountPct": 40
+      "module": "Session",
+      "weight": 0.36736540366109344,
+      "score": 55131.04,
+      "amountPct": 37
     },
     {
       "module": "VWAP",
-      "weight": 0.23457243987294946,
-      "score": 21741.5,
-      "amountPct": 23
+      "weight": 0.35711054359308647,
+      "score": 37756.38,
+      "amountPct": 36
+    },
+    {
+      "module": "Breaker",
+      "weight": 0.13776202637291005,
+      "score": 3822.95,
+      "amountPct": 14
     },
     {
       "module": "Liquidity",
-      "weight": 0.22133770561731161,
-      "score": 20514.83,
-      "amountPct": 22
-    },
-    {
-      "module": "FVG",
-      "weight": 0.14838814213901969,
-      "score": 5986.12,
-      "amountPct": 15
+      "weight": 0.13776202637291005,
+      "score": 391.13,
+      "amountPct": 14
     }
   ],
   "fundsPercent": 25
