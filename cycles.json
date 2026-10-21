@@ -7394,5 +7394,91 @@
     ],
     "isReal": true,
     "total_pnl": 36079.52999999999
+  },
+  {
+    "cycleId": 82989,
+    "time": "2026-10-21T06:46:06.518Z",
+    "top4": [
+      {
+        "module": "SMC",
+        "pnl": 287.97,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 287.97,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "287.97",
+        "score": 82926.72
+      },
+      {
+        "module": "Orderflow",
+        "pnl": 192.93,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 192.93,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "192.93",
+        "score": 37221.98
+      },
+      {
+        "module": "Liquidity",
+        "pnl": 174.17000000000002,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 174.17000000000002,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "174.17",
+        "score": 30335.19
+      },
+      {
+        "module": "VWAP",
+        "pnl": 150.94,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 150.94,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "150.94",
+        "score": 22782.88
+      }
+    ],
+    "allocations": [
+      {
+        "module": "SMC",
+        "weight": 0.42557599643756755,
+        "score": 82926.72,
+        "amountPct": 43
+      },
+      {
+        "module": "Orderflow",
+        "weight": 0.22856057782861666,
+        "score": 37221.98,
+        "amountPct": 23
+      },
+      {
+        "module": "Liquidity",
+        "weight": 0.18627242706972796,
+        "score": 30335.19,
+        "amountPct": 19
+      },
+      {
+        "module": "VWAP",
+        "weight": 0.15959099866408782,
+        "score": 22782.88,
+        "amountPct": 16
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 36675.78999999999
   }
 ]
