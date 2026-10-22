@@ -1,92 +1,92 @@
 {
-  "cycleId": 82994,
-  "createdAt": "2026-10-22T07:32:03.196Z",
-  "validFrom": "2026-10-22T07:32:03.196Z",
-  "validTill": "2026-10-22T13:32:03.196Z",
+  "cycleId": 82995,
+  "createdAt": "2026-10-22T13:06:58.137Z",
+  "validFrom": "2026-10-22T13:06:58.137Z",
+  "validTill": "2026-10-22T19:06:58.137Z",
   "top4": [
     {
-      "module": "Session",
-      "pnl": 309.9,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 309.9,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "309.90",
-      "score": 96038.01
-    },
-    {
-      "module": "Breaker",
-      "pnl": 206.2,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 206.2,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "206.20",
-      "score": 42518.44
-    },
-    {
       "module": "FVG",
-      "pnl": 143.22,
+      "pnl": 199.76,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 143.22,
+      "grossProfit": 199.76,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "143.22",
-      "score": 20511.97
+      "profitFactor": "199.76",
+      "score": 39904.06
     },
     {
       "module": "SMC",
-      "pnl": 133.73000000000002,
+      "pnl": 189.26,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 133.73000000000002,
+      "grossProfit": 189.26,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "133.73",
-      "score": 17883.71
+      "profitFactor": "189.26",
+      "score": 35819.35
+    },
+    {
+      "module": "BOS",
+      "pnl": 57.32,
+      "wins": 2,
+      "loss": 0,
+      "total": 2,
+      "grossProfit": 57.32,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "57.32",
+      "score": 3285.58
+    },
+    {
+      "module": "Breaker",
+      "pnl": 119.22,
+      "wins": 1,
+      "loss": 0,
+      "total": 2,
+      "grossProfit": 146.5,
+      "grossLoss": 27.28,
+      "maxDD": 0,
+      "winRate": 50,
+      "profitFactor": "5.37",
+      "score": 320.12
     }
   ],
   "top4Names": [
-    "Session",
-    "Breaker",
     "FVG",
-    "SMC"
+    "SMC",
+    "BOS",
+    "Breaker"
   ],
   "allocations": [
     {
-      "module": "Session",
-      "weight": 0.4254042212512622,
-      "score": 96038.01,
-      "amountPct": 43
-    },
-    {
-      "module": "Breaker",
-      "weight": 0.25554261281029106,
-      "score": 42518.44,
-      "amountPct": 26
-    },
-    {
       "module": "FVG",
-      "weight": 0.1595265829692233,
-      "score": 20511.97,
-      "amountPct": 16
+      "weight": 0.36363636363636365,
+      "score": 39904.06,
+      "amountPct": 36
     },
     {
       "module": "SMC",
-      "weight": 0.1595265829692233,
-      "score": 17883.71,
-      "amountPct": 16
+      "weight": 0.36363636363636365,
+      "score": 35819.35,
+      "amountPct": 36
+    },
+    {
+      "module": "BOS",
+      "weight": 0.13636363636363635,
+      "score": 3285.58,
+      "amountPct": 14
+    },
+    {
+      "module": "Breaker",
+      "weight": 0.13636363636363635,
+      "score": 320.12,
+      "amountPct": 14
     }
   ],
   "fundsPercent": 25
