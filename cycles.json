@@ -8598,5 +8598,91 @@
     ],
     "isReal": true,
     "total_pnl": 41458.890000000014
+  },
+  {
+    "cycleId": 82999,
+    "time": "2026-10-23T18:35:45.338Z",
+    "top4": [
+      {
+        "module": "SMC",
+        "pnl": 195.47,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 195.47,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "195.47",
+        "score": 38208.52
+      },
+      {
+        "module": "OrderBlock",
+        "pnl": 185.48000000000002,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 185.48000000000002,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "185.48",
+        "score": 34402.83
+      },
+      {
+        "module": "CHoCH",
+        "pnl": 141.94,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 141.94,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "141.94",
+        "score": 20146.96
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 53.42,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 53.42,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "53.42",
+        "score": 2853.7
+      }
+    ],
+    "allocations": [
+      {
+        "module": "SMC",
+        "weight": 0.3567551841437625,
+        "score": 38208.52,
+        "amountPct": 36
+      },
+      {
+        "module": "OrderBlock",
+        "weight": 0.3212212342094527,
+        "score": 34402.83,
+        "amountPct": 32
+      },
+      {
+        "module": "CHoCH",
+        "weight": 0.18811334290721068,
+        "score": 20146.96,
+        "amountPct": 19
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.13391023873957403,
+        "score": 2853.7,
+        "amountPct": 13
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 41871.46000000002
   }
 ]
