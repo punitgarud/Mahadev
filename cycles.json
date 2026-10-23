@@ -8684,5 +8684,91 @@
     ],
     "isReal": true,
     "total_pnl": 41871.46000000002
+  },
+  {
+    "cycleId": 82999,
+    "time": "2026-10-23T21:39:06.990Z",
+    "top4": [
+      {
+        "module": "CHoCH",
+        "pnl": 250.23000000000002,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 250.23000000000002,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "250.23",
+        "score": 62615.05
+      },
+      {
+        "module": "OrderBlock",
+        "pnl": 212.52,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 212.52,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "212.52",
+        "score": 45164.75
+      },
+      {
+        "module": "EQH-EQL",
+        "pnl": 131.57,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 131.57,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "131.57",
+        "score": 17310.66
+      },
+      {
+        "module": "Session",
+        "pnl": 114.67,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 114.67,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "114.67",
+        "score": 13149.21
+      }
+    ],
+    "allocations": [
+      {
+        "module": "CHoCH",
+        "weight": 0.38959266269345927,
+        "score": 62615.05,
+        "amountPct": 39
+      },
+      {
+        "module": "OrderBlock",
+        "weight": 0.3182128402864462,
+        "score": 45164.75,
+        "amountPct": 32
+      },
+      {
+        "module": "EQH-EQL",
+        "weight": 0.1460972485100472,
+        "score": 17310.66,
+        "amountPct": 15
+      },
+      {
+        "module": "Session",
+        "weight": 0.1460972485100472,
+        "score": 13149.21,
+        "amountPct": 15
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 42472.08000000002
   }
 ]
