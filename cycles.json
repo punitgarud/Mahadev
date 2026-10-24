@@ -8770,5 +8770,91 @@
     ],
     "isReal": true,
     "total_pnl": 42472.08000000002
+  },
+  {
+    "cycleId": 83000,
+    "time": "2026-10-24T00:01:32.107Z",
+    "top4": [
+      {
+        "module": "CHoCH",
+        "pnl": 394.70000000000005,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 394.70000000000005,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "394.70",
+        "score": 155788.09
+      },
+      {
+        "module": "OrderBlock",
+        "pnl": 230.33,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 230.33,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "230.33",
+        "score": 53051.91
+      },
+      {
+        "module": "EQH-EQL",
+        "pnl": 195.12,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 195.12,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "195.12",
+        "score": 38071.81
+      },
+      {
+        "module": "Session",
+        "pnl": 146.35,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 146.35,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "146.35",
+        "score": 21418.32
+      }
+    ],
+    "allocations": [
+      {
+        "module": "CHoCH",
+        "weight": 0.4455775274902026,
+        "score": 155788.09,
+        "amountPct": 45
+      },
+      {
+        "module": "OrderBlock",
+        "weight": 0.22023932689214543,
+        "score": 53051.91,
+        "amountPct": 22
+      },
+      {
+        "module": "EQH-EQL",
+        "weight": 0.16709157280882594,
+        "score": 38071.81,
+        "amountPct": 17
+      },
+      {
+        "module": "Session",
+        "weight": 0.16709157280882594,
+        "score": 21418.32,
+        "amountPct": 17
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 43148.260000000024
   }
 ]
