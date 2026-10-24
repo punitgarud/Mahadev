@@ -9286,5 +9286,91 @@
     ],
     "isReal": true,
     "total_pnl": 44963.950000000026
+  },
+  {
+    "cycleId": 83003,
+    "time": "2026-10-24T21:31:34.778Z",
+    "top4": [
+      {
+        "module": "Session",
+        "pnl": 270.99,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 270.99,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "270.99",
+        "score": 73435.58
+      },
+      {
+        "module": "EQH-EQL",
+        "pnl": 190.42000000000002,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 190.42000000000002,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "190.42",
+        "score": 36259.78
+      },
+      {
+        "module": "Breaker",
+        "pnl": 181,
+        "wins": 2,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 182.52,
+        "grossLoss": 1.52,
+        "maxDD": 0,
+        "winRate": 67,
+        "profitFactor": "120.08",
+        "score": 14489.53
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 188.53,
+        "wins": 2,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 193.27,
+        "grossLoss": 4.74,
+        "maxDD": 0,
+        "winRate": 67,
+        "profitFactor": "40.77",
+        "score": 5124.78
+      }
+    ],
+    "allocations": [
+      {
+        "module": "Session",
+        "weight": 0.4079923961331366,
+        "score": 73435.58,
+        "amountPct": 41
+      },
+      {
+        "module": "EQH-EQL",
+        "weight": 0.286013306767011,
+        "score": 36259.78,
+        "amountPct": 29
+      },
+      {
+        "module": "Breaker",
+        "weight": 0.1529971485499262,
+        "score": 14489.53,
+        "amountPct": 15
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.1529971485499262,
+        "score": 5124.78,
+        "amountPct": 15
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 45479.98000000003
   }
 ]
