@@ -9372,5 +9372,91 @@
     ],
     "isReal": true,
     "total_pnl": 45479.98000000003
+  },
+  {
+    "cycleId": 83003,
+    "time": "2026-10-24T23:37:54.354Z",
+    "top4": [
+      {
+        "module": "CHoCH",
+        "pnl": 381.64,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 381.64,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "381.64",
+        "score": 145649.09
+      },
+      {
+        "module": "Session",
+        "pnl": 266.18,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 266.18,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "266.18",
+        "score": 70851.79
+      },
+      {
+        "module": "EQH-EQL",
+        "pnl": 166.76999999999998,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 166.76999999999998,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "166.77",
+        "score": 27812.23
+      },
+      {
+        "module": "Breaker",
+        "pnl": 135.32999999999998,
+        "wins": 2,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 136.85,
+        "grossLoss": 1.52,
+        "maxDD": 0,
+        "winRate": 67,
+        "profitFactor": "90.03",
+        "score": 8122.77
+      }
+    ],
+    "allocations": [
+      {
+        "module": "CHoCH",
+        "weight": 0.4078833979287171,
+        "score": 145649.09,
+        "amountPct": 41
+      },
+      {
+        "module": "Session",
+        "weight": 0.2862040536247451,
+        "score": 70851.79,
+        "amountPct": 29
+      },
+      {
+        "module": "EQH-EQL",
+        "weight": 0.15295627422326888,
+        "score": 27812.23,
+        "amountPct": 15
+      },
+      {
+        "module": "Breaker",
+        "weight": 0.15295627422326888,
+        "score": 8122.77,
+        "amountPct": 15
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 45815.50000000003
   }
 ]
