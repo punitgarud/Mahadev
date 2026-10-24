@@ -1,140 +1,140 @@
 {
-  "updated": "2026-10-24T13:15:09.321Z",
+  "updated": "2026-10-24T16:40:55.057Z",
   "cycleId": 83002,
   "isRealCycle": true,
   "top4": [
     {
-      "module": "Liquidity",
-      "pnl": 264.9,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 264.9,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "264.90",
-      "score": 70172.01
-    },
-    {
       "module": "VWAP",
-      "pnl": 215.98,
+      "pnl": 290.08,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 215.98,
+      "grossProfit": 290.08,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "215.98",
-      "score": 46647.36
-    },
-    {
-      "module": "EQH-EQL",
-      "pnl": 46.44,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 46.44,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "46.44",
-      "score": 2156.67
+      "profitFactor": "290.08",
+      "score": 84146.41
     },
     {
       "module": "FVG",
-      "pnl": 101.52,
-      "wins": 1,
+      "pnl": 158.1,
+      "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 110.24,
-      "grossLoss": 8.72,
+      "grossProfit": 158.1,
+      "grossLoss": 0,
       "maxDD": 0,
-      "winRate": 50,
-      "profitFactor": "12.64",
-      "score": 641.72
+      "winRate": 100,
+      "profitFactor": "158.10",
+      "score": 24995.61
+    },
+    {
+      "module": "Premium-Discount",
+      "pnl": 156.44,
+      "wins": 2,
+      "loss": 0,
+      "total": 2,
+      "grossProfit": 156.44,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "156.44",
+      "score": 24473.47
+    },
+    {
+      "module": "Liquidity",
+      "pnl": 119.39,
+      "wins": 2,
+      "loss": 0,
+      "total": 2,
+      "grossProfit": 119.39,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "119.39",
+      "score": 14253.97
     }
   ],
   "allocations": [
     {
-      "module": "Liquidity",
-      "weight": 0.3669825152045035,
-      "score": 70172.01,
-      "amountPct": 37
-    },
-    {
       "module": "VWAP",
-      "weight": 0.35778059839211895,
-      "score": 46647.36,
-      "amountPct": 36
-    },
-    {
-      "module": "EQH-EQL",
-      "weight": 0.13761844320168878,
-      "score": 2156.67,
-      "amountPct": 14
+      "weight": 0.4522095768610117,
+      "score": 84146.41,
+      "amountPct": 45
     },
     {
       "module": "FVG",
-      "weight": 0.13761844320168878,
-      "score": 641.72,
-      "amountPct": 14
+      "weight": 0.19110190538132202,
+      "score": 24995.61,
+      "amountPct": 19
+    },
+    {
+      "module": "Premium-Discount",
+      "weight": 0.18710992643478688,
+      "score": 24473.47,
+      "amountPct": 19
+    },
+    {
+      "module": "Liquidity",
+      "weight": 0.16957859132287936,
+      "score": 14253.97,
+      "amountPct": 17
     }
   ],
   "all": [
     {
       "module": "EQH-EQL",
-      "pnl": 269.41,
+      "pnl": 380.86,
+      "wins": 7,
+      "loss": 0,
+      "total": 7,
+      "grossProfit": 380.86,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "380.86",
+      "score": 145054.34
+    },
+    {
+      "module": "VWAP",
+      "pnl": 364.25,
       "wins": 6,
       "loss": 0,
       "total": 7,
-      "grossProfit": 280.24,
-      "grossLoss": 10.83,
+      "grossProfit": 419.65999999999997,
+      "grossLoss": 55.41,
       "maxDD": 0,
       "winRate": 86,
-      "profitFactor": "25.88",
-      "score": 5975.42
+      "profitFactor": "7.57",
+      "score": 2364.62
     },
     {
       "module": "Liquidity",
-      "pnl": 535.85,
+      "pnl": 392.97999999999996,
       "wins": 5,
       "loss": 0,
       "total": 7,
-      "grossProfit": 606.87,
+      "grossProfit": 464,
       "grossLoss": 71.02000000000001,
       "maxDD": 0,
       "winRate": 71,
-      "profitFactor": "8.55",
-      "score": 3270.62
+      "profitFactor": "6.53",
+      "score": 1833.92
     },
     {
-      "module": "CHoCH",
-      "pnl": 418.27000000000004,
-      "wins": 6,
+      "module": "Orderflow",
+      "pnl": 269.40999999999997,
+      "wins": 5,
       "loss": 0,
       "total": 7,
-      "grossProfit": 483.95000000000005,
-      "grossLoss": 65.68,
+      "grossProfit": 302.62,
+      "grossLoss": 33.21,
       "maxDD": 0,
-      "winRate": 86,
-      "profitFactor": "7.37",
-      "score": 2641.66
-    },
-    {
-      "module": "OrderBlock",
-      "pnl": 354.0200000000001,
-      "wins": 6,
-      "loss": 0,
-      "total": 7,
-      "grossProfit": 436.99000000000007,
-      "grossLoss": 82.97,
-      "maxDD": 0,
-      "winRate": 86,
-      "profitFactor": "5.27",
-      "score": 1598.2
+      "winRate": 71,
+      "profitFactor": "9.11",
+      "score": 1753.53
     }
   ],
-  "total_pnl": 44281.08000000001
+  "total_pnl": 44686.63000000001
 }
