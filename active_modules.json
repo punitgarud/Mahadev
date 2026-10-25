@@ -1,91 +1,91 @@
 {
   "cycleId": 83008,
-  "createdAt": "2026-10-25T21:46:45.807Z",
-  "validFrom": "2026-10-25T21:46:45.807Z",
-  "validTill": "2026-10-26T03:46:45.807Z",
+  "createdAt": "2026-10-25T23:36:46.967Z",
+  "validFrom": "2026-10-25T23:36:46.967Z",
+  "validTill": "2026-10-26T05:36:46.967Z",
   "top4": [
     {
-      "module": "Orderflow",
-      "pnl": 304.98999999999995,
+      "module": "VWAP",
+      "pnl": 329.40999999999997,
       "wins": 3,
       "loss": 0,
       "total": 3,
-      "grossProfit": 304.98999999999995,
+      "grossProfit": 329.40999999999997,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "304.99",
-      "score": 93018.9
+      "profitFactor": "329.41",
+      "score": 108510.95
+    },
+    {
+      "module": "Orderflow",
+      "pnl": 290.57,
+      "wins": 3,
+      "loss": 0,
+      "total": 3,
+      "grossProfit": 290.57,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "290.57",
+      "score": 84430.92
     },
     {
       "module": "BOS",
-      "pnl": 269.25,
+      "pnl": 177.33999999999997,
       "wins": 3,
       "loss": 0,
       "total": 3,
-      "grossProfit": 269.25,
+      "grossProfit": 177.33999999999997,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "269.25",
-      "score": 72495.56
+      "profitFactor": "177.34",
+      "score": 31449.48
     },
     {
-      "module": "VWAP",
-      "pnl": 180.21,
+      "module": "Breaker",
+      "pnl": 191.98999999999998,
       "wins": 2,
       "loss": 0,
       "total": 3,
-      "grossProfit": 186.44,
-      "grossLoss": 6.23,
+      "grossProfit": 221.31,
+      "grossLoss": 29.32,
       "maxDD": 0,
       "winRate": 67,
-      "profitFactor": "29.93",
-      "score": 3595.33
-    },
-    {
-      "module": "OrderBlock",
-      "pnl": 151.92000000000002,
-      "wins": 2,
-      "loss": 0,
-      "total": 3,
-      "grossProfit": 164.37,
-      "grossLoss": 12.45,
-      "maxDD": 0,
-      "winRate": 67,
-      "profitFactor": "13.20",
-      "score": 1337.14
+      "profitFactor": "7.55",
+      "score": 966.11
     }
   ],
   "top4Names": [
+    "VWAP",
     "Orderflow",
     "BOS",
-    "VWAP",
-    "OrderBlock"
+    "Breaker"
   ],
   "allocations": [
     {
+      "module": "VWAP",
+      "weight": 0.3722130602555339,
+      "score": 108510.95,
+      "amountPct": 37
+    },
+    {
       "module": "Orderflow",
-      "weight": 0.36363636363636365,
-      "score": 93018.9,
-      "amountPct": 36
+      "weight": 0.3486271445528158,
+      "score": 84430.92,
+      "amountPct": 35
     },
     {
       "module": "BOS",
-      "weight": 0.36363636363636365,
-      "score": 72495.56,
-      "amountPct": 36
-    },
-    {
-      "module": "VWAP",
-      "weight": 0.13636363636363635,
-      "score": 3595.33,
+      "weight": 0.1395798975958252,
+      "score": 31449.48,
       "amountPct": 14
     },
     {
-      "module": "OrderBlock",
-      "weight": 0.13636363636363635,
-      "score": 1337.14,
+      "module": "Breaker",
+      "weight": 0.1395798975958252,
+      "score": 966.11,
       "amountPct": 14
     }
   ],

@@ -9974,5 +9974,91 @@
     ],
     "isReal": true,
     "total_pnl": 48890.44000000004
+  },
+  {
+    "cycleId": 83007,
+    "time": "2026-10-25T23:36:46.967Z",
+    "top4": [
+      {
+        "module": "VWAP",
+        "pnl": 329.40999999999997,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 329.40999999999997,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "329.41",
+        "score": 108510.95
+      },
+      {
+        "module": "Orderflow",
+        "pnl": 290.57,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 290.57,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "290.57",
+        "score": 84430.92
+      },
+      {
+        "module": "BOS",
+        "pnl": 177.33999999999997,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 177.33999999999997,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "177.34",
+        "score": 31449.48
+      },
+      {
+        "module": "Breaker",
+        "pnl": 191.98999999999998,
+        "wins": 2,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 221.31,
+        "grossLoss": 29.32,
+        "maxDD": 0,
+        "winRate": 67,
+        "profitFactor": "7.55",
+        "score": 966.11
+      }
+    ],
+    "allocations": [
+      {
+        "module": "VWAP",
+        "weight": 0.3722130602555339,
+        "score": 108510.95,
+        "amountPct": 37
+      },
+      {
+        "module": "Orderflow",
+        "weight": 0.3486271445528158,
+        "score": 84430.92,
+        "amountPct": 35
+      },
+      {
+        "module": "BOS",
+        "weight": 0.1395798975958252,
+        "score": 31449.48,
+        "amountPct": 14
+      },
+      {
+        "module": "Breaker",
+        "weight": 0.1395798975958252,
+        "score": 966.11,
+        "amountPct": 14
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 49600.740000000034
   }
 ]
