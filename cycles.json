@@ -9888,5 +9888,91 @@
     ],
     "isReal": true,
     "total_pnl": 48435.41000000004
+  },
+  {
+    "cycleId": 83007,
+    "time": "2026-10-25T21:46:45.807Z",
+    "top4": [
+      {
+        "module": "Orderflow",
+        "pnl": 304.98999999999995,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 304.98999999999995,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "304.99",
+        "score": 93018.9
+      },
+      {
+        "module": "BOS",
+        "pnl": 269.25,
+        "wins": 3,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 269.25,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "269.25",
+        "score": 72495.56
+      },
+      {
+        "module": "VWAP",
+        "pnl": 180.21,
+        "wins": 2,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 186.44,
+        "grossLoss": 6.23,
+        "maxDD": 0,
+        "winRate": 67,
+        "profitFactor": "29.93",
+        "score": 3595.33
+      },
+      {
+        "module": "OrderBlock",
+        "pnl": 151.92000000000002,
+        "wins": 2,
+        "loss": 0,
+        "total": 3,
+        "grossProfit": 164.37,
+        "grossLoss": 12.45,
+        "maxDD": 0,
+        "winRate": 67,
+        "profitFactor": "13.20",
+        "score": 1337.14
+      }
+    ],
+    "allocations": [
+      {
+        "module": "Orderflow",
+        "weight": 0.36363636363636365,
+        "score": 93018.9,
+        "amountPct": 36
+      },
+      {
+        "module": "BOS",
+        "weight": 0.36363636363636365,
+        "score": 72495.56,
+        "amountPct": 36
+      },
+      {
+        "module": "VWAP",
+        "weight": 0.13636363636363635,
+        "score": 3595.33,
+        "amountPct": 14
+      },
+      {
+        "module": "OrderBlock",
+        "weight": 0.13636363636363635,
+        "score": 1337.14,
+        "amountPct": 14
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 48890.44000000004
   }
 ]
