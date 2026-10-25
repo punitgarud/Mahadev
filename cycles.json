@@ -9544,5 +9544,91 @@
     ],
     "isReal": true,
     "total_pnl": 46265.28000000003
+  },
+  {
+    "cycleId": 83005,
+    "time": "2026-10-25T06:51:48.226Z",
+    "top4": [
+      {
+        "module": "Orderflow",
+        "pnl": 291.21000000000004,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 291.21000000000004,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "291.21",
+        "score": 84803.26
+      },
+      {
+        "module": "Session",
+        "pnl": 187.82999999999998,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 187.82999999999998,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "187.83",
+        "score": 35280.11
+      },
+      {
+        "module": "FVG",
+        "pnl": 183.82,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 183.82,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "183.82",
+        "score": 33789.79
+      },
+      {
+        "module": "Breaker",
+        "pnl": 171.07999999999998,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 171.07999999999998,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "171.08",
+        "score": 29268.37
+      }
+    ],
+    "allocations": [
+      {
+        "module": "Orderflow",
+        "weight": 0.4269160661796429,
+        "score": 84803.26,
+        "amountPct": 43
+      },
+      {
+        "module": "Session",
+        "weight": 0.205601178711146,
+        "score": 35280.11,
+        "amountPct": 21
+      },
+      {
+        "module": "FVG",
+        "weight": 0.19691607119144733,
+        "score": 33789.79,
+        "amountPct": 20
+      },
+      {
+        "module": "Breaker",
+        "weight": 0.17056668391776394,
+        "score": 29268.37,
+        "amountPct": 17
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 46959.410000000025
   }
 ]
