@@ -10146,5 +10146,91 @@
     ],
     "isReal": true,
     "total_pnl": 50323.73000000003
+  },
+  {
+    "cycleId": 83009,
+    "time": "2026-10-26T07:00:08.566Z",
+    "top4": [
+      {
+        "module": "CHoCH",
+        "pnl": 237.22000000000003,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 237.22000000000003,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "237.22",
+        "score": 56273.33
+      },
+      {
+        "module": "Liquidity",
+        "pnl": 116.34,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 116.34,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "116.34",
+        "score": 13535
+      },
+      {
+        "module": "EQH-EQL",
+        "pnl": 56.25,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 56.25,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "56.25",
+        "score": 3164.06
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 149.73,
+        "wins": 1,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 153.91,
+        "grossLoss": 4.18,
+        "maxDD": 0,
+        "winRate": 50,
+        "profitFactor": "36.82",
+        "score": 2756.57
+      }
+    ],
+    "allocations": [
+      {
+        "module": "CHoCH",
+        "weight": 0.45520264760507706,
+        "score": 56273.33,
+        "amountPct": 46
+      },
+      {
+        "module": "Liquidity",
+        "weight": 0.20339536669111516,
+        "score": 13535,
+        "amountPct": 20
+      },
+      {
+        "module": "EQH-EQL",
+        "weight": 0.17070099285190388,
+        "score": 3164.06,
+        "amountPct": 17
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.17070099285190388,
+        "score": 2756.57,
+        "amountPct": 17
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 50313.64000000003
   }
 ]
