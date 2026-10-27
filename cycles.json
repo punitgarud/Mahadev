@@ -10748,5 +10748,91 @@
     ],
     "isReal": true,
     "total_pnl": 52942.85
+  },
+  {
+    "cycleId": 83015,
+    "time": "2026-10-27T19:34:20.354Z",
+    "top4": [
+      {
+        "module": "Liquidity",
+        "pnl": 244,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 244,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "244.00",
+        "score": 59536
+      },
+      {
+        "module": "Orderflow",
+        "pnl": 224.64,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 224.64,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "224.64",
+        "score": 50463.13
+      },
+      {
+        "module": "BOS",
+        "pnl": 210.18,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 210.18,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "210.18",
+        "score": 44175.63
+      },
+      {
+        "module": "EQH-EQL",
+        "pnl": 183.43,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 183.43,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "183.43",
+        "score": 33646.56
+      }
+    ],
+    "allocations": [
+      {
+        "module": "Liquidity",
+        "weight": 0.3169821189628526,
+        "score": 59536,
+        "amountPct": 32
+      },
+      {
+        "module": "Orderflow",
+        "weight": 0.26867626103362496,
+        "score": 50463.13,
+        "amountPct": 27
+      },
+      {
+        "module": "BOS",
+        "weight": 0.2352002956852822,
+        "score": 44175.63,
+        "amountPct": 24
+      },
+      {
+        "module": "EQH-EQL",
+        "weight": 0.17914132431824034,
+        "score": 33646.56,
+        "amountPct": 18
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 53667.44999999999
   }
 ]
