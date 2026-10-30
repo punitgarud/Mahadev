@@ -12038,5 +12038,91 @@
     ],
     "isReal": true,
     "total_pnl": 59354.910000000025
+  },
+  {
+    "cycleId": 83027,
+    "time": "2026-10-30T23:41:14.888Z",
+    "top4": [
+      {
+        "module": "Breaker",
+        "pnl": 281.24,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 281.24,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "281.24",
+        "score": 79095.94
+      },
+      {
+        "module": "SMC",
+        "pnl": 154.2,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 154.2,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "154.20",
+        "score": 23777.64
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 133.2,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 133.2,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "133.20",
+        "score": 17742.24
+      },
+      {
+        "module": "EQH-EQL",
+        "pnl": 130.88,
+        "wins": 1,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 156.05,
+        "grossLoss": 25.17,
+        "maxDD": 0,
+        "winRate": 50,
+        "profitFactor": "6.20",
+        "score": 405.72
+      }
+    ],
+    "allocations": [
+      {
+        "module": "Breaker",
+        "weight": 0.44619230573613244,
+        "score": 79095.94,
+        "amountPct": 45
+      },
+      {
+        "module": "SMC",
+        "weight": 0.2191634649617682,
+        "score": 23777.64,
+        "amountPct": 22
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.16732211465104965,
+        "score": 17742.24,
+        "amountPct": 17
+      },
+      {
+        "module": "EQH-EQL",
+        "weight": 0.16732211465104965,
+        "score": 405.72,
+        "amountPct": 17
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 59692.21000000003
   }
 ]
