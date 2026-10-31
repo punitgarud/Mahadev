@@ -1,92 +1,92 @@
 {
-  "cycleId": 83031,
-  "createdAt": "2026-10-31T15:08:06.509Z",
-  "validFrom": "2026-10-31T15:08:06.509Z",
-  "validTill": "2026-10-31T21:08:06.509Z",
+  "cycleId": 83032,
+  "createdAt": "2026-10-31T19:15:34.105Z",
+  "validFrom": "2026-10-31T19:15:34.105Z",
+  "validTill": "2026-11-01T01:15:34.105Z",
   "top4": [
     {
-      "module": "FVG",
-      "pnl": 146.62,
-      "wins": 1,
+      "module": "Orderflow",
+      "pnl": 249.89,
+      "wins": 2,
       "loss": 0,
-      "total": 1,
-      "grossProfit": 146.62,
+      "total": 2,
+      "grossProfit": 249.89,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "146.62",
-      "score": 21497.42
+      "profitFactor": "249.89",
+      "score": 62445.01
     },
     {
       "module": "Premium-Discount",
-      "pnl": 140.61,
-      "wins": 1,
+      "pnl": 208.98000000000002,
+      "wins": 2,
       "loss": 0,
-      "total": 1,
-      "grossProfit": 140.61,
+      "total": 2,
+      "grossProfit": 208.98000000000002,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "140.61",
-      "score": 19771.17
+      "profitFactor": "208.98",
+      "score": 43672.64
     },
     {
-      "module": "Orderflow",
-      "pnl": 139.31,
-      "wins": 1,
+      "module": "Breaker",
+      "pnl": 157.97,
+      "wins": 2,
       "loss": 0,
-      "total": 1,
-      "grossProfit": 139.31,
+      "total": 2,
+      "grossProfit": 157.97,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "139.31",
-      "score": 19407.28
+      "profitFactor": "157.97",
+      "score": 24954.52
     },
     {
       "module": "SMC",
-      "pnl": 132.96,
-      "wins": 1,
+      "pnl": 142.96,
+      "wins": 2,
       "loss": 0,
-      "total": 1,
-      "grossProfit": 132.96,
+      "total": 2,
+      "grossProfit": 142.96,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "132.96",
-      "score": 17678.36
+      "profitFactor": "142.96",
+      "score": 20437.56
     }
   ],
   "top4Names": [
-    "FVG",
-    "Premium-Discount",
     "Orderflow",
+    "Premium-Discount",
+    "Breaker",
     "SMC"
   ],
   "allocations": [
     {
-      "module": "FVG",
-      "weight": 0.27436195850562245,
-      "score": 21497.42,
-      "amountPct": 27
+      "module": "Orderflow",
+      "weight": 0.39882129814951595,
+      "score": 62445.01,
+      "amountPct": 40
     },
     {
       "module": "Premium-Discount",
-      "weight": 0.25233060167906696,
-      "score": 19771.17,
-      "amountPct": 25
+      "weight": 0.28740033690272687,
+      "score": 43672.64,
+      "amountPct": 29
     },
     {
-      "module": "Orderflow",
-      "weight": 0.24768643632896398,
-      "score": 19407.28,
-      "amountPct": 25
+      "module": "Breaker",
+      "weight": 0.16422037814168866,
+      "score": 24954.52,
+      "amountPct": 16
     },
     {
       "module": "SMC",
-      "weight": 0.2256210034863466,
-      "score": 17678.36,
-      "amountPct": 23
+      "weight": 0.14955798680606847,
+      "score": 20437.56,
+      "amountPct": 15
     }
   ],
   "fundsPercent": 25
