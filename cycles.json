@@ -12468,5 +12468,91 @@
     ],
     "isReal": true,
     "total_pnl": 61676.22000000003
+  },
+  {
+    "cycleId": 83031,
+    "time": "2026-10-31T22:34:27.442Z",
+    "top4": [
+      {
+        "module": "VWAP",
+        "pnl": 301.67,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 301.67,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "301.67",
+        "score": 91004.79
+      },
+      {
+        "module": "Orderflow",
+        "pnl": 260.75,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 260.75,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "260.75",
+        "score": 67990.56
+      },
+      {
+        "module": "EQH-EQL",
+        "pnl": 164.04,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 164.04,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "164.04",
+        "score": 26909.12
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 100.86000000000001,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 100.86000000000001,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "100.86",
+        "score": 10172.74
+      }
+    ],
+    "allocations": [
+      {
+        "module": "VWAP",
+        "weight": 0.38213371423688614,
+        "score": 91004.79,
+        "amountPct": 38
+      },
+      {
+        "module": "Orderflow",
+        "weight": 0.33126600008544926,
+        "score": 67990.56,
+        "amountPct": 33
+      },
+      {
+        "module": "EQH-EQL",
+        "weight": 0.14330014283883227,
+        "score": 26909.12,
+        "amountPct": 14
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.14330014283883227,
+        "score": 10172.74,
+        "amountPct": 14
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 62291.79000000003
   }
 ]
