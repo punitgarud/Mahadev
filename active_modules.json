@@ -1,91 +1,91 @@
 {
-  "cycleId": 83035,
-  "createdAt": "2026-11-01T14:41:36.760Z",
-  "validFrom": "2026-11-01T14:41:36.760Z",
-  "validTill": "2026-11-01T20:41:36.760Z",
+  "cycleId": 83036,
+  "createdAt": "2026-11-01T19:13:12.828Z",
+  "validFrom": "2026-11-01T19:13:12.828Z",
+  "validTill": "2026-11-02T01:13:12.828Z",
   "top4": [
     {
       "module": "SMC",
-      "pnl": 125.26,
-      "wins": 1,
+      "pnl": 219.79000000000002,
+      "wins": 2,
       "loss": 0,
-      "total": 1,
-      "grossProfit": 125.26,
+      "total": 2,
+      "grossProfit": 219.79000000000002,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "125.26",
-      "score": 15690.07
+      "profitFactor": "219.79",
+      "score": 48307.64
     },
     {
       "module": "CHoCH",
-      "pnl": 47.62,
-      "wins": 1,
+      "pnl": 61.4,
+      "wins": 2,
       "loss": 0,
-      "total": 1,
-      "grossProfit": 47.62,
+      "total": 2,
+      "grossProfit": 61.4,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "47.62",
-      "score": 2267.66
+      "profitFactor": "61.40",
+      "score": 3769.96
     },
     {
-      "module": "VWAP",
-      "pnl": -35.54,
-      "wins": 0,
+      "module": "OrderBlock",
+      "pnl": 137.2,
+      "wins": 1,
       "loss": 0,
-      "total": 1,
-      "grossProfit": 0,
-      "grossLoss": 35.54,
+      "total": 2,
+      "grossProfit": 148.23,
+      "grossLoss": 11.03,
       "maxDD": 0,
-      "winRate": 0,
-      "profitFactor": "0.00",
-      "score": 0
+      "winRate": 50,
+      "profitFactor": "13.44",
+      "score": 921.9
     },
     {
-      "module": "Liquidity",
-      "pnl": -70.34,
-      "wins": 0,
+      "module": "Breaker",
+      "pnl": 107.08,
+      "wins": 1,
       "loss": 0,
-      "total": 1,
-      "grossProfit": 0,
-      "grossLoss": 70.34,
+      "total": 2,
+      "grossProfit": 118.09,
+      "grossLoss": 11.01,
       "maxDD": 0,
-      "winRate": 0,
-      "profitFactor": "0.00",
-      "score": 0
+      "winRate": 50,
+      "profitFactor": "10.73",
+      "score": 574.25
     }
   ],
   "top4Names": [
     "SMC",
     "CHoCH",
-    "VWAP",
-    "Liquidity"
+    "OrderBlock",
+    "Breaker"
   ],
   "allocations": [
     {
       "module": "SMC",
       "weight": 0.47058823529411764,
-      "score": 15690.07,
+      "score": 48307.64,
       "amountPct": 47
     },
     {
       "module": "CHoCH",
       "weight": 0.1764705882352941,
-      "score": 2267.66,
+      "score": 3769.96,
       "amountPct": 18
     },
     {
-      "module": "VWAP",
+      "module": "OrderBlock",
       "weight": 0.1764705882352941,
-      "score": 0,
+      "score": 921.9,
       "amountPct": 18
     },
     {
-      "module": "Liquidity",
+      "module": "Breaker",
       "weight": 0.1764705882352941,
-      "score": 0,
+      "score": 574.25,
       "amountPct": 18
     }
   ],

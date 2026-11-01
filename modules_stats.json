@@ -1,140 +1,140 @@
 {
-  "updated": "2026-11-01T14:41:36.760Z",
-  "cycleId": 83034,
+  "updated": "2026-11-01T19:13:12.828Z",
+  "cycleId": 83035,
   "isRealCycle": true,
   "top4": [
     {
       "module": "SMC",
-      "pnl": 125.26,
-      "wins": 1,
+      "pnl": 219.79000000000002,
+      "wins": 2,
       "loss": 0,
-      "total": 1,
-      "grossProfit": 125.26,
+      "total": 2,
+      "grossProfit": 219.79000000000002,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "125.26",
-      "score": 15690.07
+      "profitFactor": "219.79",
+      "score": 48307.64
     },
     {
       "module": "CHoCH",
-      "pnl": 47.62,
-      "wins": 1,
+      "pnl": 61.4,
+      "wins": 2,
       "loss": 0,
-      "total": 1,
-      "grossProfit": 47.62,
+      "total": 2,
+      "grossProfit": 61.4,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "47.62",
-      "score": 2267.66
+      "profitFactor": "61.40",
+      "score": 3769.96
     },
     {
-      "module": "VWAP",
-      "pnl": -35.54,
-      "wins": 0,
+      "module": "OrderBlock",
+      "pnl": 137.2,
+      "wins": 1,
       "loss": 0,
-      "total": 1,
-      "grossProfit": 0,
-      "grossLoss": 35.54,
+      "total": 2,
+      "grossProfit": 148.23,
+      "grossLoss": 11.03,
       "maxDD": 0,
-      "winRate": 0,
-      "profitFactor": "0.00",
-      "score": 0
+      "winRate": 50,
+      "profitFactor": "13.44",
+      "score": 921.9
     },
     {
-      "module": "Liquidity",
-      "pnl": -70.34,
-      "wins": 0,
+      "module": "Breaker",
+      "pnl": 107.08,
+      "wins": 1,
       "loss": 0,
-      "total": 1,
-      "grossProfit": 0,
-      "grossLoss": 70.34,
+      "total": 2,
+      "grossProfit": 118.09,
+      "grossLoss": 11.01,
       "maxDD": 0,
-      "winRate": 0,
-      "profitFactor": "0.00",
-      "score": 0
+      "winRate": 50,
+      "profitFactor": "10.73",
+      "score": 574.25
     }
   ],
   "allocations": [
     {
       "module": "SMC",
       "weight": 0.47058823529411764,
-      "score": 15690.07,
+      "score": 48307.64,
       "amountPct": 47
     },
     {
       "module": "CHoCH",
       "weight": 0.1764705882352941,
-      "score": 2267.66,
+      "score": 3769.96,
       "amountPct": 18
     },
     {
-      "module": "VWAP",
+      "module": "OrderBlock",
       "weight": 0.1764705882352941,
-      "score": 0,
+      "score": 921.9,
       "amountPct": 18
     },
     {
-      "module": "Liquidity",
+      "module": "Breaker",
       "weight": 0.1764705882352941,
-      "score": 0,
+      "score": 574.25,
       "amountPct": 18
     }
   ],
   "all": [
     {
-      "module": "Breaker",
-      "pnl": 331.69000000000005,
+      "module": "Session",
+      "pnl": 358.97,
       "wins": 4,
       "loss": 0,
       "total": 6,
-      "grossProfit": 370.56,
+      "grossProfit": 399.59,
+      "grossLoss": 40.620000000000005,
+      "maxDD": 0,
+      "winRate": 67,
+      "profitFactor": "9.84",
+      "score": 2354.19
+    },
+    {
+      "module": "Breaker",
+      "pnl": 347.51,
+      "wins": 4,
+      "loss": 0,
+      "total": 6,
+      "grossProfit": 386.38,
       "grossLoss": 38.87,
       "maxDD": 0,
       "winRate": 67,
-      "profitFactor": "9.53",
-      "score": 2108.07
+      "profitFactor": "9.94",
+      "score": 2302.91
     },
     {
       "module": "Orderflow",
-      "pnl": 356.06999999999994,
+      "pnl": 312.01,
       "wins": 4,
       "loss": 0,
       "total": 6,
-      "grossProfit": 403.86999999999995,
+      "grossProfit": 359.81,
       "grossLoss": 47.8,
       "maxDD": 0,
       "winRate": 67,
-      "profitFactor": "8.45",
-      "score": 2005.66
+      "profitFactor": "7.53",
+      "score": 1565.75
     },
     {
       "module": "Premium-Discount",
-      "pnl": 305.05,
+      "pnl": 259.31,
       "wins": 5,
       "loss": 0,
       "total": 6,
-      "grossProfit": 371.99,
+      "grossProfit": 326.25,
       "grossLoss": 66.94,
       "maxDD": 0,
       "winRate": 83,
-      "profitFactor": "5.56",
-      "score": 1412.65
-    },
-    {
-      "module": "SMC",
-      "pnl": 226.12,
-      "wins": 4,
-      "loss": 0,
-      "total": 6,
-      "grossProfit": 290.03000000000003,
-      "grossLoss": 63.91,
-      "maxDD": 0,
-      "winRate": 67,
-      "profitFactor": "4.54",
-      "score": 684.1
+      "profitFactor": "4.87",
+      "score": 1053.18
     }
   ],
-  "total_pnl": 63070.740000000034
+  "total_pnl": 63988.88000000004
 }
