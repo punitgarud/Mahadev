@@ -12984,5 +12984,91 @@
     ],
     "isReal": true,
     "total_pnl": 64237.78000000005
+  },
+  {
+    "cycleId": 83036,
+    "time": "2026-11-02T01:57:59.937Z",
+    "top4": [
+      {
+        "module": "BOS",
+        "pnl": 288.84000000000003,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 288.84000000000003,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "288.84",
+        "score": 83428.55
+      },
+      {
+        "module": "Liquidity",
+        "pnl": 158.59,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 158.59,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "158.59",
+        "score": 25150.79
+      },
+      {
+        "module": "Orderflow",
+        "pnl": 154.06,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 154.06,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "154.06",
+        "score": 23734.48
+      },
+      {
+        "module": "SMC",
+        "pnl": 112.36,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 112.36,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "112.36",
+        "score": 12624.77
+      }
+    ],
+    "allocations": [
+      {
+        "module": "BOS",
+        "weight": 0.4508146365281937,
+        "score": 83428.55,
+        "amountPct": 45
+      },
+      {
+        "module": "Liquidity",
+        "weight": 0.19557152191571148,
+        "score": 25150.79,
+        "amountPct": 20
+      },
+      {
+        "module": "Orderflow",
+        "weight": 0.1845583528580222,
+        "score": 23734.48,
+        "amountPct": 18
+      },
+      {
+        "module": "SMC",
+        "weight": 0.16905548869807263,
+        "score": 12624.77,
+        "amountPct": 17
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 64759.19000000005
   }
 ]
