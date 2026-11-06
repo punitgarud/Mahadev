@@ -14532,5 +14532,91 @@
     ],
     "isReal": true,
     "total_pnl": 72286.00000000001
+  },
+  {
+    "cycleId": 83055,
+    "time": "2026-11-06T22:24:47.437Z",
+    "top4": [
+      {
+        "module": "FVG",
+        "pnl": 248.20999999999998,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 248.20999999999998,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "248.21",
+        "score": 61608.2
+      },
+      {
+        "module": "SMC",
+        "pnl": 190.87,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 190.87,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "190.87",
+        "score": 36431.36
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 118.98,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 118.98,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "118.98",
+        "score": 14156.24
+      },
+      {
+        "module": "CHoCH",
+        "pnl": 44.82,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 44.82,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "44.82",
+        "score": 2008.83
+      }
+    ],
+    "allocations": [
+      {
+        "module": "FVG",
+        "weight": 0.3925414274889759,
+        "score": 61608.2,
+        "amountPct": 39
+      },
+      {
+        "module": "SMC",
+        "weight": 0.31305250189429223,
+        "score": 36431.36,
+        "amountPct": 31
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.14720303530836595,
+        "score": 14156.24,
+        "amountPct": 15
+      },
+      {
+        "module": "CHoCH",
+        "weight": 0.14720303530836595,
+        "score": 2008.83,
+        "amountPct": 15
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 72341.26000000001
   }
 ]
