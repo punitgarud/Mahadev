@@ -14618,5 +14618,91 @@
     ],
     "isReal": true,
     "total_pnl": 72341.26000000001
+  },
+  {
+    "cycleId": 83056,
+    "time": "2026-11-07T02:09:43.413Z",
+    "top4": [
+      {
+        "module": "Premium-Discount",
+        "pnl": 244.92000000000002,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 244.92000000000002,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "244.92",
+        "score": 59985.81
+      },
+      {
+        "module": "SMC",
+        "pnl": 189.97,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 189.97,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "189.97",
+        "score": 36088.6
+      },
+      {
+        "module": "BOS",
+        "pnl": 167.85,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 167.85,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "167.85",
+        "score": 28173.62
+      },
+      {
+        "module": "FVG",
+        "pnl": 165.68,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 165.68,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "165.68",
+        "score": 27449.86
+      }
+    ],
+    "allocations": [
+      {
+        "module": "Premium-Discount",
+        "weight": 0.3954294288470327,
+        "score": 59985.81,
+        "amountPct": 40
+      },
+      {
+        "module": "SMC",
+        "weight": 0.23789783760341027,
+        "score": 36088.6,
+        "amountPct": 24
+      },
+      {
+        "module": "BOS",
+        "weight": 0.18572189764801605,
+        "score": 28173.62,
+        "amountPct": 19
+      },
+      {
+        "module": "FVG",
+        "weight": 0.18095083590154087,
+        "score": 27449.86,
+        "amountPct": 18
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 72981.89000000001
   }
 ]
