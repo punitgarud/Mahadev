@@ -15048,5 +15048,91 @@
     ],
     "isReal": true,
     "total_pnl": 74737.16000000003
+  },
+  {
+    "cycleId": 83060,
+    "time": "2026-11-08T02:02:06.655Z",
+    "top4": [
+      {
+        "module": "CHoCH",
+        "pnl": 240.43,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 240.43,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "240.43",
+        "score": 57806.58
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 143.1,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 143.1,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "143.10",
+        "score": 20477.61
+      },
+      {
+        "module": "BOS",
+        "pnl": 134.66,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 134.66,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "134.66",
+        "score": 18133.32
+      },
+      {
+        "module": "Session",
+        "pnl": 117.69999999999999,
+        "wins": 1,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 119.1,
+        "grossLoss": 1.4,
+        "maxDD": 0,
+        "winRate": 50,
+        "profitFactor": "85.07",
+        "score": 5006.45
+      }
+    ],
+    "allocations": [
+      {
+        "module": "CHoCH",
+        "weight": 0.42978936778554017,
+        "score": 57806.58,
+        "amountPct": 43
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.21693737494717358,
+        "score": 20477.61,
+        "amountPct": 22
+      },
+      {
+        "module": "BOS",
+        "weight": 0.19210224434770862,
+        "score": 18133.32,
+        "amountPct": 19
+      },
+      {
+        "module": "Session",
+        "weight": 0.16117101291957756,
+        "score": 5006.45,
+        "amountPct": 16
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 75125.13000000002
   }
 ]
