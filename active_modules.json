@@ -1,92 +1,92 @@
 {
-  "cycleId": 83072,
-  "createdAt": "2026-11-10T23:54:46.652Z",
-  "validFrom": "2026-11-10T23:54:46.652Z",
-  "validTill": "2026-11-11T05:54:46.652Z",
+  "cycleId": 83073,
+  "createdAt": "2026-11-11T04:40:23.308Z",
+  "validFrom": "2026-11-11T04:40:23.308Z",
+  "validTill": "2026-11-11T10:40:23.308Z",
   "top4": [
     {
-      "module": "SMC",
-      "pnl": 174.13,
+      "module": "Orderflow",
+      "pnl": 209.20999999999998,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 174.13,
+      "grossProfit": 209.20999999999998,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "174.13",
-      "score": 30321.26
+      "profitFactor": "209.21",
+      "score": 43768.82
     },
     {
-      "module": "OrderBlock",
-      "pnl": 164.97,
+      "module": "EQH-EQL",
+      "pnl": 200.11,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 164.97,
+      "grossProfit": 200.11,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "164.97",
-      "score": 27215.1
-    },
-    {
-      "module": "BOS",
-      "pnl": 155.87,
-      "wins": 2,
-      "loss": 0,
-      "total": 2,
-      "grossProfit": 155.87,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "155.87",
-      "score": 24295.46
+      "profitFactor": "200.11",
+      "score": 40044.01
     },
     {
       "module": "Liquidity",
-      "pnl": 147.07,
+      "pnl": 194.11,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 147.07,
+      "grossProfit": 194.11,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "147.07",
-      "score": 21629.58
+      "profitFactor": "194.11",
+      "score": 37678.69
+    },
+    {
+      "module": "SMC",
+      "pnl": 63.5,
+      "wins": 2,
+      "loss": 0,
+      "total": 2,
+      "grossProfit": 63.5,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "63.50",
+      "score": 4032.25
     }
   ],
   "top4Names": [
-    "SMC",
-    "OrderBlock",
-    "BOS",
-    "Liquidity"
+    "Orderflow",
+    "EQH-EQL",
+    "Liquidity",
+    "SMC"
   ],
   "allocations": [
     {
-      "module": "SMC",
-      "weight": 0.29306833273085425,
-      "score": 30321.26,
+      "module": "Orderflow",
+      "weight": 0.3119212751619938,
+      "score": 43768.82,
+      "amountPct": 31
+    },
+    {
+      "module": "EQH-EQL",
+      "weight": 0.2853761801620339,
+      "score": 40044.01,
       "amountPct": 29
     },
     {
-      "module": "OrderBlock",
-      "weight": 0.26304592823990397,
-      "score": 27215.1,
-      "amountPct": 26
-    },
-    {
-      "module": "BOS",
-      "weight": 0.23482632170065357,
-      "score": 24295.46,
-      "amountPct": 23
-    },
-    {
       "module": "Liquidity",
-      "weight": 0.20905941732858827,
-      "score": 21629.58,
-      "amountPct": 21
+      "weight": 0.2685195769781654,
+      "score": 37678.69,
+      "amountPct": 27
+    },
+    {
+      "module": "SMC",
+      "weight": 0.13418296769780688,
+      "score": 4032.25,
+      "amountPct": 13
     }
   ],
   "fundsPercent": 25
