@@ -16510,5 +16510,91 @@
     ],
     "isReal": true,
     "total_pnl": 82706.32999999999
+  },
+  {
+    "cycleId": 83078,
+    "time": "2026-11-12T17:10:02.468Z",
+    "top4": [
+      {
+        "module": "OrderBlock",
+        "pnl": 118.48,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 118.48,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "118.48",
+        "score": 14037.51
+      },
+      {
+        "module": "BOS",
+        "pnl": 108.47,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 108.47,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "108.47",
+        "score": 11765.74
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 95.7,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 95.7,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "95.70",
+        "score": 9158.49
+      },
+      {
+        "module": "Orderflow",
+        "pnl": 31.24,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 31.24,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "31.24",
+        "score": 975.94
+      }
+    ],
+    "allocations": [
+      {
+        "module": "OrderBlock",
+        "weight": 0.3478730579342112,
+        "score": 14037.51,
+        "amountPct": 35
+      },
+      {
+        "module": "BOS",
+        "weight": 0.29157478446383056,
+        "score": 11765.74,
+        "amountPct": 29
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.2269627535339169,
+        "score": 9158.49,
+        "amountPct": 23
+      },
+      {
+        "module": "Orderflow",
+        "weight": 0.13358940406804137,
+        "score": 975.94,
+        "amountPct": 13
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 82584.43999999999
   }
 ]
