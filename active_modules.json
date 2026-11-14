@@ -1,92 +1,92 @@
 {
-  "cycleId": 83087,
-  "createdAt": "2026-11-14T16:45:51.669Z",
-  "validFrom": "2026-11-14T16:45:51.669Z",
-  "validTill": "2026-11-14T22:45:51.669Z",
+  "cycleId": 83088,
+  "createdAt": "2026-11-14T20:57:59.555Z",
+  "validFrom": "2026-11-14T20:57:59.555Z",
+  "validTill": "2026-11-15T02:57:59.555Z",
   "top4": [
     {
       "module": "Liquidity",
-      "pnl": 178.61,
+      "pnl": 277.51,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 178.61,
+      "grossProfit": 277.51,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "178.61",
-      "score": 31901.53
+      "profitFactor": "277.51",
+      "score": 77011.8
     },
     {
       "module": "Premium-Discount",
-      "pnl": 167,
+      "pnl": 260.73,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 167,
+      "grossProfit": 260.73,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "167.00",
-      "score": 27889
+      "profitFactor": "260.73",
+      "score": 67980.13
     },
     {
-      "module": "EQH-EQL",
-      "pnl": 155.41,
+      "module": "SMC",
+      "pnl": 214.51999999999998,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 155.41,
+      "grossProfit": 214.51999999999998,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "155.41",
-      "score": 24152.27
+      "profitFactor": "214.52",
+      "score": 46018.83
     },
     {
-      "module": "Orderflow",
-      "pnl": 119.99000000000001,
+      "module": "Session",
+      "pnl": 191.69,
       "wins": 2,
       "loss": 0,
       "total": 2,
-      "grossProfit": 119.99000000000001,
+      "grossProfit": 191.69,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "119.99",
-      "score": 14397.6
+      "profitFactor": "191.69",
+      "score": 36745.06
     }
   ],
   "top4Names": [
     "Liquidity",
     "Premium-Discount",
-    "EQH-EQL",
-    "Orderflow"
+    "SMC",
+    "Session"
   ],
   "allocations": [
     {
       "module": "Liquidity",
-      "weight": 0.3232372307659261,
-      "score": 31901.53,
-      "amountPct": 32
+      "weight": 0.33813318140454107,
+      "score": 77011.8,
+      "amountPct": 34
     },
     {
       "module": "Premium-Discount",
-      "weight": 0.2825809021959421,
-      "score": 27889,
-      "amountPct": 28
+      "weight": 0.29847812451071504,
+      "score": 67980.13,
+      "amountPct": 30
     },
     {
-      "module": "EQH-EQL",
-      "weight": 0.24471907370934728,
-      "score": 24152.27,
-      "amountPct": 24
+      "module": "SMC",
+      "weight": 0.2020533657493363,
+      "score": 46018.83,
+      "amountPct": 20
     },
     {
-      "module": "Orderflow",
-      "weight": 0.1494627933287846,
-      "score": 14397.6,
-      "amountPct": 15
+      "module": "Session",
+      "weight": 0.16133532833540762,
+      "score": 36745.06,
+      "amountPct": 16
     }
   ],
   "fundsPercent": 25

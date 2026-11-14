@@ -1,91 +1,5 @@
 [
   {
-    "cycleId": 82925,
-    "time": "2026-10-05T07:44:28.960Z",
-    "top4": [
-      {
-        "module": "FVG",
-        "pnl": 223.91,
-        "wins": 3,
-        "loss": 0,
-        "total": 3,
-        "grossProfit": 223.91,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "223.91",
-        "score": 50135.69
-      },
-      {
-        "module": "Session",
-        "pnl": 157.32,
-        "wins": 3,
-        "loss": 0,
-        "total": 3,
-        "grossProfit": 157.32,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "157.32",
-        "score": 24749.58
-      },
-      {
-        "module": "SMC",
-        "pnl": 152.98999999999998,
-        "wins": 3,
-        "loss": 0,
-        "total": 3,
-        "grossProfit": 152.98999999999998,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "152.99",
-        "score": 23405.94
-      },
-      {
-        "module": "Premium-Discount",
-        "pnl": 147.14,
-        "wins": 3,
-        "loss": 0,
-        "total": 3,
-        "grossProfit": 147.14,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "147.14",
-        "score": 21650.18
-      }
-    ],
-    "allocations": [
-      {
-        "module": "FVG",
-        "weight": 0.4073326291186,
-        "score": 50135.69,
-        "amountPct": 41
-      },
-      {
-        "module": "Session",
-        "weight": 0.21012995370032647,
-        "score": 24749.58,
-        "amountPct": 21
-      },
-      {
-        "module": "SMC",
-        "weight": 0.19872212330522854,
-        "score": 23405.94,
-        "amountPct": 20
-      },
-      {
-        "module": "Premium-Discount",
-        "weight": 0.18381529387584492,
-        "score": 21650.18,
-        "amountPct": 18
-      }
-    ],
-    "isReal": true,
-    "total_pnl": 1319.91
-  },
-  {
     "cycleId": 82926,
     "time": "2026-10-05T16:25:32.856Z",
     "top4": [
@@ -17198,5 +17112,91 @@
     ],
     "isReal": true,
     "total_pnl": 85510.52999999997
+  },
+  {
+    "cycleId": 83087,
+    "time": "2026-11-14T20:57:59.555Z",
+    "top4": [
+      {
+        "module": "Liquidity",
+        "pnl": 277.51,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 277.51,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "277.51",
+        "score": 77011.8
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 260.73,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 260.73,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "260.73",
+        "score": 67980.13
+      },
+      {
+        "module": "SMC",
+        "pnl": 214.51999999999998,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 214.51999999999998,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "214.52",
+        "score": 46018.83
+      },
+      {
+        "module": "Session",
+        "pnl": 191.69,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 191.69,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "191.69",
+        "score": 36745.06
+      }
+    ],
+    "allocations": [
+      {
+        "module": "Liquidity",
+        "weight": 0.33813318140454107,
+        "score": 77011.8,
+        "amountPct": 34
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.29847812451071504,
+        "score": 67980.13,
+        "amountPct": 30
+      },
+      {
+        "module": "SMC",
+        "weight": 0.2020533657493363,
+        "score": 46018.83,
+        "amountPct": 20
+      },
+      {
+        "module": "Session",
+        "weight": 0.16133532833540762,
+        "score": 36745.06,
+        "amountPct": 16
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 86062.28999999995
   }
 ]
