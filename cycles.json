@@ -17026,5 +17026,91 @@
     ],
     "isReal": true,
     "total_pnl": 84367.06999999999
+  },
+  {
+    "cycleId": 83084,
+    "time": "2026-11-14T03:29:48.518Z",
+    "top4": [
+      {
+        "module": "FVG",
+        "pnl": 160.04,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 160.04,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "160.04",
+        "score": 25612.8
+      },
+      {
+        "module": "Session",
+        "pnl": 122.73,
+        "wins": 2,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 122.73,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "122.73",
+        "score": 15062.65
+      },
+      {
+        "module": "Orderflow",
+        "pnl": 135.66,
+        "wins": 1,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 149.62,
+        "grossLoss": 13.96,
+        "maxDD": 0,
+        "winRate": 50,
+        "profitFactor": "10.72",
+        "score": 726.99
+      },
+      {
+        "module": "Liquidity",
+        "pnl": 116.23000000000002,
+        "wins": 1,
+        "loss": 0,
+        "total": 2,
+        "grossProfit": 135.08,
+        "grossLoss": 18.85,
+        "maxDD": 0,
+        "winRate": 50,
+        "profitFactor": "7.17",
+        "score": 416.45
+      }
+    ],
+    "allocations": [
+      {
+        "module": "FVG",
+        "weight": 0.3772916798097108,
+        "score": 25612.8,
+        "amountPct": 38
+      },
+      {
+        "module": "Session",
+        "weight": 0.33973956033300623,
+        "score": 15062.65,
+        "amountPct": 34
+      },
+      {
+        "module": "Orderflow",
+        "weight": 0.14148437992864152,
+        "score": 726.99,
+        "amountPct": 14
+      },
+      {
+        "module": "Liquidity",
+        "weight": 0.14148437992864152,
+        "score": 416.45,
+        "amountPct": 14
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 84771.90999999999
   }
 ]
