@@ -1,91 +1,5 @@
 [
   {
-    "cycleId": 82931,
-    "time": "2026-10-06T20:56:31.746Z",
-    "top4": [
-      {
-        "module": "CHoCH",
-        "pnl": 280.16,
-        "wins": 2,
-        "loss": 0,
-        "total": 2,
-        "grossProfit": 280.16,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "280.16",
-        "score": 78489.63
-      },
-      {
-        "module": "Session",
-        "pnl": 209.64000000000001,
-        "wins": 2,
-        "loss": 0,
-        "total": 2,
-        "grossProfit": 209.64000000000001,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "209.64",
-        "score": 43948.93
-      },
-      {
-        "module": "Liquidity",
-        "pnl": 88.03999999999999,
-        "wins": 2,
-        "loss": 0,
-        "total": 2,
-        "grossProfit": 88.03999999999999,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "88.04",
-        "score": 7751.04
-      },
-      {
-        "module": "Orderflow",
-        "pnl": 74.75,
-        "wins": 1,
-        "loss": 0,
-        "total": 2,
-        "grossProfit": 104.12,
-        "grossLoss": 29.37,
-        "maxDD": 0,
-        "winRate": 50,
-        "profitFactor": "3.55",
-        "score": 132.5
-      }
-    ],
-    "allocations": [
-      {
-        "module": "CHoCH",
-        "weight": 0.38564136404526295,
-        "score": 78489.63,
-        "amountPct": 39
-      },
-      {
-        "module": "Session",
-        "weight": 0.32512761292078973,
-        "score": 43948.93,
-        "amountPct": 33
-      },
-      {
-        "module": "Liquidity",
-        "weight": 0.1446155115169736,
-        "score": 7751.04,
-        "amountPct": 14
-      },
-      {
-        "module": "Orderflow",
-        "weight": 0.1446155115169736,
-        "score": 132.5,
-        "amountPct": 14
-      }
-    ],
-    "isReal": true,
-    "total_pnl": 4174.9000000000015
-  },
-  {
     "cycleId": 82932,
     "time": "2026-10-07T00:26:18.303Z",
     "top4": [
@@ -17198,5 +17112,91 @@
     ],
     "isReal": true,
     "total_pnl": 87512.65999999993
+  },
+  {
+    "cycleId": 83093,
+    "time": "2026-11-16T06:07:36.033Z",
+    "top4": [
+      {
+        "module": "BOS",
+        "pnl": 155.41,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 155.41,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "155.41",
+        "score": 24152.27
+      },
+      {
+        "module": "Orderflow",
+        "pnl": 129.64,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 129.64,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "129.64",
+        "score": 16806.53
+      },
+      {
+        "module": "Liquidity",
+        "pnl": 126.94,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 126.94,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "126.94",
+        "score": 16113.76
+      },
+      {
+        "module": "CHoCH",
+        "pnl": 107.57,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 107.57,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "107.57",
+        "score": 11571.3
+      }
+    ],
+    "allocations": [
+      {
+        "module": "BOS",
+        "weight": 0.35184894905385566,
+        "score": 24152.27,
+        "amountPct": 35
+      },
+      {
+        "module": "Orderflow",
+        "weight": 0.24483661029551657,
+        "score": 16806.53,
+        "amountPct": 24
+      },
+      {
+        "module": "Liquidity",
+        "weight": 0.23474437480642843,
+        "score": 16113.76,
+        "amountPct": 23
+      },
+      {
+        "module": "CHoCH",
+        "weight": 0.1685700658441993,
+        "score": 11571.3,
+        "amountPct": 17
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 88030.97999999994
   }
 ]
