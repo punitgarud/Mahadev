@@ -1,92 +1,92 @@
 {
-  "cycleId": 83099,
-  "createdAt": "2026-11-17T14:39:01.278Z",
-  "validFrom": "2026-11-17T14:39:01.278Z",
-  "validTill": "2026-11-17T20:39:01.278Z",
+  "cycleId": 83100,
+  "createdAt": "2026-11-17T22:39:15.657Z",
+  "validFrom": "2026-11-17T22:39:15.657Z",
+  "validTill": "2026-11-18T04:39:15.657Z",
   "top4": [
     {
-      "module": "SMC",
-      "pnl": 136.68,
+      "module": "VWAP",
+      "pnl": 155.48,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 136.68,
+      "grossProfit": 155.48,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "136.68",
-      "score": 18681.42
+      "profitFactor": "155.48",
+      "score": 24174.03
     },
     {
-      "module": "Breaker",
-      "pnl": 96.06,
+      "module": "Orderflow",
+      "pnl": 144.66,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 96.06,
+      "grossProfit": 144.66,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "96.06",
-      "score": 9227.52
+      "profitFactor": "144.66",
+      "score": 20926.52
     },
     {
-      "module": "EQH-EQL",
-      "pnl": 91.67,
+      "module": "Session",
+      "pnl": 121.45,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 91.67,
+      "grossProfit": 121.45,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "91.67",
-      "score": 8403.39
+      "profitFactor": "121.45",
+      "score": 14750.1
     },
     {
       "module": "Premium-Discount",
-      "pnl": 90.35,
+      "pnl": 115.64,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 90.35,
+      "grossProfit": 115.64,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "90.35",
-      "score": 8163.12
+      "profitFactor": "115.64",
+      "score": 13372.61
     }
   ],
   "top4Names": [
-    "SMC",
-    "Breaker",
-    "EQH-EQL",
+    "VWAP",
+    "Orderflow",
+    "Session",
     "Premium-Discount"
   ],
   "allocations": [
     {
-      "module": "SMC",
-      "weight": 0.4081794760074808,
-      "score": 18681.42,
-      "amountPct": 41
+      "module": "VWAP",
+      "weight": 0.3301414058865994,
+      "score": 24174.03,
+      "amountPct": 33
     },
     {
-      "module": "Breaker",
-      "weight": 0.21171704156161142,
-      "score": 9227.52,
-      "amountPct": 21
+      "module": "Orderflow",
+      "weight": 0.285790608066344,
+      "score": 20926.52,
+      "amountPct": 29
     },
     {
-      "module": "EQH-EQL",
-      "weight": 0.19280812936611674,
-      "score": 8403.39,
-      "amountPct": 19
+      "module": "Session",
+      "weight": 0.20144008884608525,
+      "score": 14750.1,
+      "amountPct": 20
     },
     {
       "module": "Premium-Discount",
-      "weight": 0.18729535306479111,
-      "score": 8163.12,
-      "amountPct": 19
+      "weight": 0.1826278972009714,
+      "score": 13372.61,
+      "amountPct": 18
     }
   ],
   "fundsPercent": 25
