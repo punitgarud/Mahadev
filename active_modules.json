@@ -1,92 +1,92 @@
 {
-  "cycleId": 83109,
-  "createdAt": "2026-11-20T01:10:30.670Z",
-  "validFrom": "2026-11-20T01:10:30.670Z",
-  "validTill": "2026-11-20T07:10:30.670Z",
+  "cycleId": 83110,
+  "createdAt": "2026-11-20T08:32:12.638Z",
+  "validFrom": "2026-11-20T08:32:12.638Z",
+  "validTill": "2026-11-20T14:32:12.638Z",
   "top4": [
     {
-      "module": "Breaker",
-      "pnl": 156.18,
-      "wins": 1,
-      "loss": 0,
-      "total": 1,
-      "grossProfit": 156.18,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "156.18",
-      "score": 24392.19
-    },
-    {
       "module": "FVG",
-      "pnl": 140.5,
+      "pnl": 147.91,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 140.5,
+      "grossProfit": 147.91,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "140.50",
-      "score": 19740.25
+      "profitFactor": "147.91",
+      "score": 21877.37
     },
     {
-      "module": "OrderBlock",
-      "pnl": 20.71,
+      "module": "CHoCH",
+      "pnl": 140.37,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 20.71,
+      "grossProfit": 140.37,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "20.71",
-      "score": 428.9
+      "profitFactor": "140.37",
+      "score": 19703.74
     },
     {
-      "module": "Premium-Discount",
-      "pnl": 14.46,
+      "module": "BOS",
+      "pnl": 104.7,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 14.46,
+      "grossProfit": 104.7,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "14.46",
-      "score": 209.09
+      "profitFactor": "104.70",
+      "score": 10962.09
+    },
+    {
+      "module": "Breaker",
+      "pnl": 96.8,
+      "wins": 1,
+      "loss": 0,
+      "total": 1,
+      "grossProfit": 96.8,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "96.80",
+      "score": 9370.24
     }
   ],
   "top4Names": [
-    "Breaker",
     "FVG",
-    "OrderBlock",
-    "Premium-Discount"
+    "CHoCH",
+    "BOS",
+    "Breaker"
   ],
   "allocations": [
     {
-      "module": "Breaker",
-      "weight": 0.36363636363636365,
-      "score": 24392.19,
-      "amountPct": 36
-    },
-    {
       "module": "FVG",
-      "weight": 0.36363636363636365,
-      "score": 19740.25,
-      "amountPct": 36
+      "weight": 0.35335413441734137,
+      "score": 21877.37,
+      "amountPct": 35
     },
     {
-      "module": "OrderBlock",
-      "weight": 0.13636363636363635,
-      "score": 428.9,
-      "amountPct": 14
+      "module": "CHoCH",
+      "weight": 0.3182465713421836,
+      "score": 19703.74,
+      "amountPct": 32
     },
     {
-      "module": "Premium-Discount",
-      "weight": 0.13636363636363635,
-      "score": 209.09,
-      "amountPct": 14
+      "module": "BOS",
+      "weight": 0.17705509498422314,
+      "score": 10962.09,
+      "amountPct": 18
+    },
+    {
+      "module": "Breaker",
+      "weight": 0.15134419925625198,
+      "score": 9370.24,
+      "amountPct": 15
     }
   ],
   "fundsPercent": 25
