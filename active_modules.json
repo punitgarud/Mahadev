@@ -1,91 +1,91 @@
 {
-  "cycleId": 83119,
-  "createdAt": "2026-11-22T12:01:27.541Z",
-  "validFrom": "2026-11-22T12:01:27.541Z",
-  "validTill": "2026-11-22T18:01:27.541Z",
+  "cycleId": 83120,
+  "createdAt": "2026-11-22T19:27:35.988Z",
+  "validFrom": "2026-11-22T19:27:35.988Z",
+  "validTill": "2026-11-23T01:27:35.988Z",
   "top4": [
     {
-      "module": "VWAP",
-      "pnl": 145.28,
+      "module": "OrderBlock",
+      "pnl": 147.57,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 145.28,
+      "grossProfit": 147.57,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "145.28",
-      "score": 21106.28
+      "profitFactor": "147.57",
+      "score": 21776.9
+    },
+    {
+      "module": "SMC",
+      "pnl": 126.42,
+      "wins": 1,
+      "loss": 0,
+      "total": 1,
+      "grossProfit": 126.42,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "126.42",
+      "score": 15982.02
     },
     {
       "module": "Orderflow",
-      "pnl": 123.22,
+      "pnl": 85.24,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 123.22,
+      "grossProfit": 85.24,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "123.22",
-      "score": 15183.17
+      "profitFactor": "85.24",
+      "score": 7265.86
     },
     {
-      "module": "Liquidity",
-      "pnl": 86.15,
+      "module": "EQH-EQL",
+      "pnl": 82.87,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 86.15,
+      "grossProfit": 82.87,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "86.15",
-      "score": 7421.82
-    },
-    {
-      "module": "BOS",
-      "pnl": 80.99,
-      "wins": 1,
-      "loss": 0,
-      "total": 1,
-      "grossProfit": 80.99,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "80.99",
-      "score": 6559.38
+      "profitFactor": "82.87",
+      "score": 6867.44
     }
   ],
   "top4Names": [
-    "VWAP",
+    "OrderBlock",
+    "SMC",
     "Orderflow",
-    "Liquidity",
-    "BOS"
+    "EQH-EQL"
   ],
   "allocations": [
     {
-      "module": "VWAP",
-      "weight": 0.3991902347753368,
-      "score": 21106.28,
+      "module": "OrderBlock",
+      "weight": 0.39683134284420923,
+      "score": 21776.9,
       "amountPct": 40
     },
     {
-      "module": "Orderflow",
-      "weight": 0.3014170891431606,
-      "score": 15183.17,
-      "amountPct": 30
+      "module": "SMC",
+      "weight": 0.3055451500226338,
+      "score": 15982.02,
+      "amountPct": 31
     },
     {
-      "module": "Liquidity",
-      "weight": 0.1496963380407513,
-      "score": 7421.82,
+      "module": "Orderflow",
+      "weight": 0.14881175356657844,
+      "score": 7265.86,
       "amountPct": 15
     },
     {
-      "module": "BOS",
-      "weight": 0.1496963380407513,
-      "score": 6559.38,
+      "module": "EQH-EQL",
+      "weight": 0.14881175356657844,
+      "score": 6867.44,
       "amountPct": 15
     }
   ],
