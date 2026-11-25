@@ -1,91 +1,91 @@
 {
-  "cycleId": 83130,
-  "createdAt": "2026-11-25T07:57:43.407Z",
-  "validFrom": "2026-11-25T07:57:43.407Z",
-  "validTill": "2026-11-25T13:57:43.407Z",
+  "cycleId": 83132,
+  "createdAt": "2026-11-25T18:33:12.055Z",
+  "validFrom": "2026-11-25T18:33:12.055Z",
+  "validTill": "2026-11-26T00:33:12.055Z",
   "top4": [
     {
-      "module": "Orderflow",
-      "pnl": 148.13,
+      "module": "FVG",
+      "pnl": 158.86,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 148.13,
+      "grossProfit": 158.86,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "148.13",
-      "score": 21942.5
-    },
-    {
-      "module": "Session",
-      "pnl": 143.36,
-      "wins": 1,
-      "loss": 0,
-      "total": 1,
-      "grossProfit": 143.36,
-      "grossLoss": 0,
-      "maxDD": 0,
-      "winRate": 100,
-      "profitFactor": "143.36",
-      "score": 20552.09
+      "profitFactor": "158.86",
+      "score": 25236.5
     },
     {
       "module": "VWAP",
-      "pnl": 139.42,
+      "pnl": 142.82,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 139.42,
+      "grossProfit": 142.82,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "139.42",
-      "score": 19437.94
+      "profitFactor": "142.82",
+      "score": 20397.55
     },
     {
-      "module": "Breaker",
-      "pnl": 71.37,
+      "module": "EQH-EQL",
+      "pnl": 138.78,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 71.37,
+      "grossProfit": 138.78,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "71.37",
-      "score": 5093.68
+      "profitFactor": "138.78",
+      "score": 19259.89
+    },
+    {
+      "module": "BOS",
+      "pnl": 72.22,
+      "wins": 1,
+      "loss": 0,
+      "total": 1,
+      "grossProfit": 72.22,
+      "grossLoss": 0,
+      "maxDD": 0,
+      "winRate": 100,
+      "profitFactor": "72.22",
+      "score": 5215.73
     }
   ],
   "top4Names": [
-    "Orderflow",
-    "Session",
+    "FVG",
     "VWAP",
-    "Breaker"
+    "EQH-EQL",
+    "BOS"
   ],
   "allocations": [
     {
-      "module": "Orderflow",
-      "weight": 0.3048142601091735,
-      "score": 21942.5,
-      "amountPct": 30
-    },
-    {
-      "module": "Session",
-      "weight": 0.2854993782407266,
-      "score": 20552.09,
-      "amountPct": 29
+      "module": "FVG",
+      "weight": 0.3346554743009851,
+      "score": 25236.5,
+      "amountPct": 33
     },
     {
       "module": "VWAP",
-      "weight": 0.2700221624311955,
-      "score": 19437.94,
+      "weight": 0.27048726130121287,
+      "score": 20397.55,
       "amountPct": 27
     },
     {
-      "module": "Breaker",
-      "weight": 0.1396641992189045,
-      "score": 5093.68,
+      "module": "EQH-EQL",
+      "weight": 0.2554010113500208,
+      "score": 19259.89,
+      "amountPct": 26
+    },
+    {
+      "module": "BOS",
+      "weight": 0.13945625304778125,
+      "score": 5215.73,
       "amountPct": 14
     }
   ],
