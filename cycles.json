@@ -1,91 +1,5 @@
 [
   {
-    "cycleId": 82959,
-    "time": "2026-10-13T21:12:17.627Z",
-    "top4": [
-      {
-        "module": "SMC",
-        "pnl": 279.46000000000004,
-        "wins": 2,
-        "loss": 0,
-        "total": 2,
-        "grossProfit": 279.46000000000004,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "279.46",
-        "score": 78097.89
-      },
-      {
-        "module": "Premium-Discount",
-        "pnl": 183.48,
-        "wins": 2,
-        "loss": 0,
-        "total": 2,
-        "grossProfit": 183.48,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "183.48",
-        "score": 33664.91
-      },
-      {
-        "module": "VWAP",
-        "pnl": 138.15,
-        "wins": 2,
-        "loss": 0,
-        "total": 2,
-        "grossProfit": 138.15,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "138.15",
-        "score": 19085.42
-      },
-      {
-        "module": "BOS",
-        "pnl": 117.76,
-        "wins": 2,
-        "loss": 0,
-        "total": 2,
-        "grossProfit": 117.76,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "117.76",
-        "score": 13867.42
-      }
-    ],
-    "allocations": [
-      {
-        "module": "SMC",
-        "weight": 0.4288955507547694,
-        "score": 78097.89,
-        "amountPct": 43
-      },
-      {
-        "module": "Premium-Discount",
-        "weight": 0.24943278617915354,
-        "score": 33664.91,
-        "amountPct": 25
-      },
-      {
-        "module": "VWAP",
-        "weight": 0.16083583153303851,
-        "score": 19085.42,
-        "amountPct": 16
-      },
-      {
-        "module": "BOS",
-        "weight": 0.16083583153303851,
-        "score": 13867.42,
-        "amountPct": 16
-      }
-    ],
-    "isReal": true,
-    "total_pnl": 16906.190000000006
-  },
-  {
     "cycleId": 82960,
     "time": "2026-10-14T00:19:10.222Z",
     "top4": [
@@ -17198,5 +17112,91 @@
     ],
     "isReal": true,
     "total_pnl": 99961.73999999989
+  },
+  {
+    "cycleId": 83132,
+    "time": "2026-11-26T01:56:06.369Z",
+    "top4": [
+      {
+        "module": "Breaker",
+        "pnl": 125.18,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 125.18,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "125.18",
+        "score": 15670.03
+      },
+      {
+        "module": "SMC",
+        "pnl": 112.29,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 112.29,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "112.29",
+        "score": 12609.04
+      },
+      {
+        "module": "Orderflow",
+        "pnl": 110.25,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 110.25,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "110.25",
+        "score": 12155.06
+      },
+      {
+        "module": "Liquidity",
+        "pnl": 93.08,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 93.08,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "93.08",
+        "score": 8663.89
+      }
+    ],
+    "allocations": [
+      {
+        "module": "Breaker",
+        "weight": 0.31915808417528857,
+        "score": 15670.03,
+        "amountPct": 32
+      },
+      {
+        "module": "SMC",
+        "weight": 0.2568136148871177,
+        "score": 12609.04,
+        "amountPct": 26
+      },
+      {
+        "module": "Orderflow",
+        "weight": 0.24756721350474012,
+        "score": 12155.06,
+        "amountPct": 25
+      },
+      {
+        "module": "Liquidity",
+        "weight": 0.1764610874328537,
+        "score": 8663.89,
+        "amountPct": 18
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 100673.94999999988
   }
 ]
