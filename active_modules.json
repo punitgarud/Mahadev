@@ -1,91 +1,91 @@
 {
-  "cycleId": 83134,
-  "createdAt": "2026-11-26T10:32:02.161Z",
-  "validFrom": "2026-11-26T10:32:02.161Z",
-  "validTill": "2026-11-26T16:32:02.161Z",
+  "cycleId": 83136,
+  "createdAt": "2026-11-26T19:47:31.345Z",
+  "validFrom": "2026-11-26T19:47:31.345Z",
+  "validTill": "2026-11-27T01:47:31.345Z",
   "top4": [
     {
-      "module": "EQH-EQL",
-      "pnl": 137.78,
+      "module": "FVG",
+      "pnl": 139.14,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 137.78,
+      "grossProfit": 139.14,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "137.78",
-      "score": 18983.33
+      "profitFactor": "139.14",
+      "score": 19359.94
     },
     {
-      "module": "OrderBlock",
-      "pnl": 116.15,
+      "module": "Orderflow",
+      "pnl": 108.87,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 116.15,
+      "grossProfit": 108.87,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "116.15",
-      "score": 13490.82
+      "profitFactor": "108.87",
+      "score": 11852.68
     },
     {
-      "module": "Breaker",
-      "pnl": 72.54,
+      "module": "VWAP",
+      "pnl": 82.94,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 72.54,
+      "grossProfit": 82.94,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "72.54",
-      "score": 5262.05
+      "profitFactor": "82.94",
+      "score": 6879.04
     },
     {
-      "module": "CHoCH",
-      "pnl": 61.14,
+      "module": "Liquidity",
+      "pnl": 79.25,
       "wins": 1,
       "loss": 0,
       "total": 1,
-      "grossProfit": 61.14,
+      "grossProfit": 79.25,
       "grossLoss": 0,
       "maxDD": 0,
       "winRate": 100,
-      "profitFactor": "61.14",
-      "score": 3738.1
+      "profitFactor": "79.25",
+      "score": 6280.56
     }
   ],
   "top4Names": [
-    "EQH-EQL",
-    "OrderBlock",
-    "Breaker",
-    "CHoCH"
+    "FVG",
+    "Orderflow",
+    "VWAP",
+    "Liquidity"
   ],
   "allocations": [
     {
-      "module": "EQH-EQL",
-      "weight": 0.3901367806423044,
-      "score": 18983.33,
-      "amountPct": 39
+      "module": "FVG",
+      "weight": 0.41145925784651544,
+      "score": 19359.94,
+      "amountPct": 41
     },
     {
-      "module": "OrderBlock",
-      "weight": 0.3172606338759673,
-      "score": 13490.82,
-      "amountPct": 32
+      "module": "Orderflow",
+      "weight": 0.27477185704773377,
+      "score": 11852.68,
+      "amountPct": 27
     },
     {
-      "module": "Breaker",
-      "weight": 0.14630129274086412,
-      "score": 5262.05,
-      "amountPct": 15
+      "module": "VWAP",
+      "weight": 0.15947166341330757,
+      "score": 6879.04,
+      "amountPct": 16
     },
     {
-      "module": "CHoCH",
-      "weight": 0.14630129274086412,
-      "score": 3738.1,
+      "module": "Liquidity",
+      "weight": 0.15429722169244325,
+      "score": 6280.56,
       "amountPct": 15
     }
   ],
