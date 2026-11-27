@@ -26230,5 +26230,113 @@
     "pnl": 151.87,
     "win": true,
     "cycleId": 83136
+  },
+  {
+    "time": "2026-11-27T11:13:42.888Z",
+    "module": "SMC",
+    "strategy": "SMC",
+    "price": 66141.1186817546,
+    "pnl": 133.57,
+    "win": true,
+    "cycleId": 83137
+  },
+  {
+    "time": "2026-11-27T11:13:42.888Z",
+    "module": "VWAP",
+    "strategy": "VWAP",
+    "price": 66141.1186817546,
+    "pnl": 50.1,
+    "win": false,
+    "cycleId": 83137
+  },
+  {
+    "time": "2026-11-27T11:13:42.888Z",
+    "module": "Liquidity",
+    "strategy": "Liquidity",
+    "price": 66141.1186817546,
+    "pnl": 67.29,
+    "win": true,
+    "cycleId": 83137
+  },
+  {
+    "time": "2026-11-27T11:13:42.888Z",
+    "module": "FVG",
+    "strategy": "FVG",
+    "price": 66141.1186817546,
+    "pnl": 152.42,
+    "win": true,
+    "cycleId": 83137
+  },
+  {
+    "time": "2026-11-27T11:13:42.888Z",
+    "module": "Breaker",
+    "strategy": "Breaker",
+    "price": 66141.1186817546,
+    "pnl": 75.97,
+    "win": true,
+    "cycleId": 83137
+  },
+  {
+    "time": "2026-11-27T11:13:42.888Z",
+    "module": "Orderflow",
+    "strategy": "Orderflow",
+    "price": 66141.1186817546,
+    "pnl": 139.51,
+    "win": true,
+    "cycleId": 83137
+  },
+  {
+    "time": "2026-11-27T11:13:42.888Z",
+    "module": "OrderBlock",
+    "strategy": "OrderBlock",
+    "price": 66141.1186817546,
+    "pnl": 114.57,
+    "win": false,
+    "cycleId": 83137
+  },
+  {
+    "time": "2026-11-27T11:13:42.888Z",
+    "module": "BOS",
+    "strategy": "BOS",
+    "price": 66141.1186817546,
+    "pnl": 61.68,
+    "win": true,
+    "cycleId": 83137
+  },
+  {
+    "time": "2026-11-27T11:13:42.888Z",
+    "module": "CHoCH",
+    "strategy": "CHoCH",
+    "price": 66141.1186817546,
+    "pnl": 133.73,
+    "win": true,
+    "cycleId": 83137
+  },
+  {
+    "time": "2026-11-27T11:13:42.888Z",
+    "module": "EQH-EQL",
+    "strategy": "EQH-EQL",
+    "price": 66141.1186817546,
+    "pnl": 9.3,
+    "win": true,
+    "cycleId": 83137
+  },
+  {
+    "time": "2026-11-27T11:13:42.888Z",
+    "module": "Premium-Discount",
+    "strategy": "Premium-Discount",
+    "price": 66141.1186817546,
+    "pnl": 149.23,
+    "win": true,
+    "cycleId": 83137
+  },
+  {
+    "time": "2026-11-27T11:13:42.888Z",
+    "module": "Session",
+    "strategy": "Session",
+    "price": 66141.1186817546,
+    "pnl": 24.72,
+    "win": true,
+    "cycleId": 83137
   }
 ]
