@@ -1,91 +1,5 @@
 [
   {
-    "cycleId": 82961,
-    "time": "2026-10-14T10:06:33.069Z",
-    "top4": [
-      {
-        "module": "VWAP",
-        "pnl": 289.76,
-        "wins": 2,
-        "loss": 0,
-        "total": 2,
-        "grossProfit": 289.76,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "289.76",
-        "score": 83960.86
-      },
-      {
-        "module": "BOS",
-        "pnl": 248.15999999999997,
-        "wins": 2,
-        "loss": 0,
-        "total": 2,
-        "grossProfit": 248.15999999999997,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "248.16",
-        "score": 61583.39
-      },
-      {
-        "module": "SMC",
-        "pnl": 153.46,
-        "wins": 2,
-        "loss": 0,
-        "total": 2,
-        "grossProfit": 153.46,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "153.46",
-        "score": 23549.97
-      },
-      {
-        "module": "Breaker",
-        "pnl": 103.08000000000001,
-        "wins": 2,
-        "loss": 0,
-        "total": 2,
-        "grossProfit": 103.08000000000001,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "103.08",
-        "score": 10625.49
-      }
-    ],
-    "allocations": [
-      {
-        "module": "VWAP",
-        "weight": 0.38363286813201375,
-        "score": 83960.86,
-        "amountPct": 38
-      },
-      {
-        "module": "BOS",
-        "weight": 0.32864248076897595,
-        "score": 61583.39,
-        "amountPct": 33
-      },
-      {
-        "module": "SMC",
-        "weight": 0.14386232554950512,
-        "score": 23549.97,
-        "amountPct": 14
-      },
-      {
-        "module": "Breaker",
-        "weight": 0.14386232554950512,
-        "score": 10625.49,
-        "amountPct": 14
-      }
-    ],
-    "isReal": true,
-    "total_pnl": 18148.24
-  },
-  {
     "cycleId": 82962,
     "time": "2026-10-14T15:04:45.352Z",
     "top4": [
@@ -17198,5 +17112,91 @@
     ],
     "isReal": true,
     "total_pnl": 101487.19999999984
+  },
+  {
+    "cycleId": 83136,
+    "time": "2026-11-27T02:26:19.494Z",
+    "top4": [
+      {
+        "module": "VWAP",
+        "pnl": 155.97,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 155.97,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "155.97",
+        "score": 24326.64
+      },
+      {
+        "module": "Session",
+        "pnl": 151.87,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 151.87,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "151.87",
+        "score": 23064.5
+      },
+      {
+        "module": "Liquidity",
+        "pnl": 151.74,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 151.74,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "151.74",
+        "score": 23025.03
+      },
+      {
+        "module": "Breaker",
+        "pnl": 112.36,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 112.36,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "112.36",
+        "score": 12624.77
+      }
+    ],
+    "allocations": [
+      {
+        "module": "VWAP",
+        "weight": 0.29294755093090225,
+        "score": 24326.64,
+        "amountPct": 29
+      },
+      {
+        "module": "Session",
+        "weight": 0.2777485418638084,
+        "score": 23064.5,
+        "amountPct": 28
+      },
+      {
+        "module": "Liquidity",
+        "weight": 0.27727323414209903,
+        "score": 23025.03,
+        "amountPct": 28
+      },
+      {
+        "module": "Breaker",
+        "weight": 0.1520306730631903,
+        "score": 12624.77,
+        "amountPct": 15
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 102160.47999999985
   }
 ]
