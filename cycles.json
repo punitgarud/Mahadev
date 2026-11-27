@@ -1,92 +1,6 @@
 [
   {
     "cycleId": 82963,
-    "time": "2026-10-14T19:18:54.975Z",
-    "top4": [
-      {
-        "module": "FVG",
-        "pnl": 256.55999999999995,
-        "wins": 2,
-        "loss": 0,
-        "total": 2,
-        "grossProfit": 256.55999999999995,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "256.56",
-        "score": 65823.03
-      },
-      {
-        "module": "SMC",
-        "pnl": 212.07,
-        "wins": 2,
-        "loss": 0,
-        "total": 2,
-        "grossProfit": 212.07,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "212.07",
-        "score": 44973.68
-      },
-      {
-        "module": "CHoCH",
-        "pnl": 125.15,
-        "wins": 2,
-        "loss": 0,
-        "total": 2,
-        "grossProfit": 125.15,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "125.15",
-        "score": 15662.52
-      },
-      {
-        "module": "VWAP",
-        "pnl": 120.28999999999999,
-        "wins": 2,
-        "loss": 0,
-        "total": 2,
-        "grossProfit": 120.28999999999999,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "120.29",
-        "score": 14469.68
-      }
-    ],
-    "allocations": [
-      {
-        "module": "FVG",
-        "weight": 0.3924942668149066,
-        "score": 65823.03,
-        "amountPct": 39
-      },
-      {
-        "module": "SMC",
-        "weight": 0.31313503307391344,
-        "score": 44973.68,
-        "amountPct": 31
-      },
-      {
-        "module": "CHoCH",
-        "weight": 0.14718535005558997,
-        "score": 15662.52,
-        "amountPct": 15
-      },
-      {
-        "module": "VWAP",
-        "weight": 0.14718535005558997,
-        "score": 14469.68,
-        "amountPct": 15
-      }
-    ],
-    "isReal": true,
-    "total_pnl": 18968.040000000005
-  },
-  {
-    "cycleId": 82963,
     "time": "2026-10-14T22:24:00.841Z",
     "top4": [
       {
@@ -17198,5 +17112,91 @@
     ],
     "isReal": true,
     "total_pnl": 103272.56999999985
+  },
+  {
+    "cycleId": 83139,
+    "time": "2026-11-27T19:59:31.910Z",
+    "top4": [
+      {
+        "module": "BOS",
+        "pnl": 108.09,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 108.09,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "108.09",
+        "score": 11683.45
+      },
+      {
+        "module": "CHoCH",
+        "pnl": 105.4,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 105.4,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "105.40",
+        "score": 11109.16
+      },
+      {
+        "module": "EQH-EQL",
+        "pnl": 97.92,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 97.92,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "97.92",
+        "score": 9588.33
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 39.58,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 39.58,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "39.58",
+        "score": 1566.58
+      }
+    ],
+    "allocations": [
+      {
+        "module": "BOS",
+        "weight": 0.3117825847619416,
+        "score": 11683.45,
+        "amountPct": 31
+      },
+      {
+        "module": "CHoCH",
+        "weight": 0.29645717825933016,
+        "score": 11109.16,
+        "amountPct": 30
+      },
+      {
+        "module": "EQH-EQL",
+        "weight": 0.2558725642640202,
+        "score": 9588.33,
+        "amountPct": 26
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.13588767271470809,
+        "score": 1566.58,
+        "amountPct": 14
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 103562.47999999985
   }
 ]
