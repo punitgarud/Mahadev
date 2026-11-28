@@ -1,92 +1,6 @@
 [
   {
     "cycleId": 82964,
-    "time": "2026-10-15T00:41:44.201Z",
-    "top4": [
-      {
-        "module": "FVG",
-        "pnl": 435.94,
-        "wins": 3,
-        "loss": 0,
-        "total": 3,
-        "grossProfit": 435.94,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "435.94",
-        "score": 190043.68
-      },
-      {
-        "module": "Breaker",
-        "pnl": 280.75,
-        "wins": 3,
-        "loss": 0,
-        "total": 3,
-        "grossProfit": 280.75,
-        "grossLoss": 0,
-        "maxDD": 0,
-        "winRate": 100,
-        "profitFactor": "280.75",
-        "score": 78820.56
-      },
-      {
-        "module": "Orderflow",
-        "pnl": 122.8,
-        "wins": 2,
-        "loss": 0,
-        "total": 3,
-        "grossProfit": 133.51,
-        "grossLoss": 10.71,
-        "maxDD": 0,
-        "winRate": 67,
-        "profitFactor": "12.47",
-        "score": 1020.54
-      },
-      {
-        "module": "VWAP",
-        "pnl": 154.42000000000002,
-        "wins": 2,
-        "loss": 0,
-        "total": 3,
-        "grossProfit": 196.74,
-        "grossLoss": 42.32,
-        "maxDD": 0,
-        "winRate": 67,
-        "profitFactor": "4.65",
-        "score": 478.59
-      }
-    ],
-    "allocations": [
-      {
-        "module": "FVG",
-        "weight": 0.40341464394884324,
-        "score": 190043.68,
-        "amountPct": 40
-      },
-      {
-        "module": "Breaker",
-        "weight": 0.2940243730895242,
-        "score": 78820.56,
-        "amountPct": 29
-      },
-      {
-        "module": "Orderflow",
-        "weight": 0.1512804914808162,
-        "score": 1020.54,
-        "amountPct": 15
-      },
-      {
-        "module": "VWAP",
-        "weight": 0.1512804914808162,
-        "score": 478.59,
-        "amountPct": 15
-      }
-    ],
-    "isReal": true,
-    "total_pnl": 19779.210000000003
-  },
-  {
-    "cycleId": 82964,
     "time": "2026-10-15T05:16:40.972Z",
     "top4": [
       {
@@ -17198,5 +17112,91 @@
     ],
     "isReal": true,
     "total_pnl": 103605.07999999986
+  },
+  {
+    "cycleId": 83141,
+    "time": "2026-11-28T10:51:11.977Z",
+    "top4": [
+      {
+        "module": "VWAP",
+        "pnl": 154.72,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 154.72,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "154.72",
+        "score": 23938.28
+      },
+      {
+        "module": "Premium-Discount",
+        "pnl": 109.01,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 109.01,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "109.01",
+        "score": 11883.18
+      },
+      {
+        "module": "EQH-EQL",
+        "pnl": 91.16,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 91.16,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "91.16",
+        "score": 8310.15
+      },
+      {
+        "module": "Breaker",
+        "pnl": 87.94,
+        "wins": 1,
+        "loss": 0,
+        "total": 1,
+        "grossProfit": 87.94,
+        "grossLoss": 0,
+        "maxDD": 0,
+        "winRate": 100,
+        "profitFactor": "87.94",
+        "score": 7733.44
+      }
+    ],
+    "allocations": [
+      {
+        "module": "VWAP",
+        "weight": 0.4258292293223968,
+        "score": 23938.28,
+        "amountPct": 43
+      },
+      {
+        "module": "Premium-Discount",
+        "weight": 0.24391210368539692,
+        "score": 11883.18,
+        "amountPct": 24
+      },
+      {
+        "module": "EQH-EQL",
+        "weight": 0.1705727059963075,
+        "score": 8310.15,
+        "amountPct": 17
+      },
+      {
+        "module": "Breaker",
+        "weight": 0.1596859609958988,
+        "score": 7733.44,
+        "amountPct": 16
+      }
+    ],
+    "isReal": true,
+    "total_pnl": 103683.11999999986
   }
 ]
